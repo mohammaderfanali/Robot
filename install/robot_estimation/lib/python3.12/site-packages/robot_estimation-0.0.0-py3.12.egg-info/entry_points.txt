@@ -1,0 +1,6 @@
+[console_scripts]
+complementary_filter = robot_estimation.complementary_filter:main
+diff_drive_controller = robot_estimation.diff_drive_controller:main
+imu_bias_corrector = robot_estimation.imu_bias_corrector:main
+lowpass_filter = robot_estimation.lowpass_filter:main
+odom_producer = robot_estimation.odom_producer:main

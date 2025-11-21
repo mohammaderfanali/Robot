@@ -1,0 +1,53 @@
+running egg_info
+creating ../../build/robot_estimation/robot_estimation.egg-info
+writing ../../build/robot_estimation/robot_estimation.egg-info/PKG-INFO
+writing dependency_links to ../../build/robot_estimation/robot_estimation.egg-info/dependency_links.txt
+writing entry points to ../../build/robot_estimation/robot_estimation.egg-info/entry_points.txt
+writing requirements to ../../build/robot_estimation/robot_estimation.egg-info/requires.txt
+writing top-level names to ../../build/robot_estimation/robot_estimation.egg-info/top_level.txt
+writing manifest file '../../build/robot_estimation/robot_estimation.egg-info/SOURCES.txt'
+reading manifest file '../../build/robot_estimation/robot_estimation.egg-info/SOURCES.txt'
+writing manifest file '../../build/robot_estimation/robot_estimation.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/mohammadreza/Robotic_HW_1_3/Robotic/build/robot_estimation/build
+creating /home/mohammadreza/Robotic_HW_1_3/Robotic/build/robot_estimation/build/lib
+creating /home/mohammadreza/Robotic_HW_1_3/Robotic/build/robot_estimation/build/lib/robot_estimation
+copying robot_estimation/lowpass_filter.py -> /home/mohammadreza/Robotic_HW_1_3/Robotic/build/robot_estimation/build/lib/robot_estimation
+copying robot_estimation/complementary_filter.py -> /home/mohammadreza/Robotic_HW_1_3/Robotic/build/robot_estimation/build/lib/robot_estimation
+copying robot_estimation/odom_producer.py -> /home/mohammadreza/Robotic_HW_1_3/Robotic/build/robot_estimation/build/lib/robot_estimation
+copying robot_estimation/imu_bias_corrector.py -> /home/mohammadreza/Robotic_HW_1_3/Robotic/build/robot_estimation/build/lib/robot_estimation
+copying robot_estimation/__init__.py -> /home/mohammadreza/Robotic_HW_1_3/Robotic/build/robot_estimation/build/lib/robot_estimation
+copying robot_estimation/diff_drive_controller.py -> /home/mohammadreza/Robotic_HW_1_3/Robotic/build/robot_estimation/build/lib/robot_estimation
+running install
+running install_lib
+creating /home/mohammadreza/Robotic_HW_1_3/Robotic/install/robot_estimation/lib/python3.12/site-packages/robot_estimation
+copying /home/mohammadreza/Robotic_HW_1_3/Robotic/build/robot_estimation/build/lib/robot_estimation/lowpass_filter.py -> /home/mohammadreza/Robotic_HW_1_3/Robotic/install/robot_estimation/lib/python3.12/site-packages/robot_estimation
+copying /home/mohammadreza/Robotic_HW_1_3/Robotic/build/robot_estimation/build/lib/robot_estimation/complementary_filter.py -> /home/mohammadreza/Robotic_HW_1_3/Robotic/install/robot_estimation/lib/python3.12/site-packages/robot_estimation
+copying /home/mohammadreza/Robotic_HW_1_3/Robotic/build/robot_estimation/build/lib/robot_estimation/odom_producer.py -> /home/mohammadreza/Robotic_HW_1_3/Robotic/install/robot_estimation/lib/python3.12/site-packages/robot_estimation
+copying /home/mohammadreza/Robotic_HW_1_3/Robotic/build/robot_estimation/build/lib/robot_estimation/imu_bias_corrector.py -> /home/mohammadreza/Robotic_HW_1_3/Robotic/install/robot_estimation/lib/python3.12/site-packages/robot_estimation
+copying /home/mohammadreza/Robotic_HW_1_3/Robotic/build/robot_estimation/build/lib/robot_estimation/__init__.py -> /home/mohammadreza/Robotic_HW_1_3/Robotic/install/robot_estimation/lib/python3.12/site-packages/robot_estimation
+copying /home/mohammadreza/Robotic_HW_1_3/Robotic/build/robot_estimation/build/lib/robot_estimation/diff_drive_controller.py -> /home/mohammadreza/Robotic_HW_1_3/Robotic/install/robot_estimation/lib/python3.12/site-packages/robot_estimation
+byte-compiling /home/mohammadreza/Robotic_HW_1_3/Robotic/install/robot_estimation/lib/python3.12/site-packages/robot_estimation/lowpass_filter.py to lowpass_filter.cpython-312.pyc
+byte-compiling /home/mohammadreza/Robotic_HW_1_3/Robotic/install/robot_estimation/lib/python3.12/site-packages/robot_estimation/complementary_filter.py to complementary_filter.cpython-312.pyc
+byte-compiling /home/mohammadreza/Robotic_HW_1_3/Robotic/install/robot_estimation/lib/python3.12/site-packages/robot_estimation/odom_producer.py to odom_producer.cpython-312.pyc
+byte-compiling /home/mohammadreza/Robotic_HW_1_3/Robotic/install/robot_estimation/lib/python3.12/site-packages/robot_estimation/imu_bias_corrector.py to imu_bias_corrector.cpython-312.pyc
+byte-compiling /home/mohammadreza/Robotic_HW_1_3/Robotic/install/robot_estimation/lib/python3.12/site-packages/robot_estimation/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/mohammadreza/Robotic_HW_1_3/Robotic/install/robot_estimation/lib/python3.12/site-packages/robot_estimation/diff_drive_controller.py to diff_drive_controller.cpython-312.pyc
+running install_data
+creating /home/mohammadreza/Robotic_HW_1_3/Robotic/install/robot_estimation/share/ament_index
+creating /home/mohammadreza/Robotic_HW_1_3/Robotic/install/robot_estimation/share/ament_index/resource_index
+creating /home/mohammadreza/Robotic_HW_1_3/Robotic/install/robot_estimation/share/ament_index/resource_index/packages
+copying resource/robot_estimation -> /home/mohammadreza/Robotic_HW_1_3/Robotic/install/robot_estimation/share/ament_index/resource_index/packages
+copying package.xml -> /home/mohammadreza/Robotic_HW_1_3/Robotic/install/robot_estimation/share/robot_estimation
+creating /home/mohammadreza/Robotic_HW_1_3/Robotic/install/robot_estimation/share/robot_estimation/launch
+copying launch/estimation_pipeline.launch.py -> /home/mohammadreza/Robotic_HW_1_3/Robotic/install/robot_estimation/share/robot_estimation/launch
+running install_egg_info
+Copying ../../build/robot_estimation/robot_estimation.egg-info to /home/mohammadreza/Robotic_HW_1_3/Robotic/install/robot_estimation/lib/python3.12/site-packages/robot_estimation-0.0.0-py3.12.egg-info
+running install_scripts
+Installing complementary_filter script to /home/mohammadreza/Robotic_HW_1_3/Robotic/install/robot_estimation/lib/robot_estimation
+Installing diff_drive_controller script to /home/mohammadreza/Robotic_HW_1_3/Robotic/install/robot_estimation/lib/robot_estimation
+Installing imu_bias_corrector script to /home/mohammadreza/Robotic_HW_1_3/Robotic/install/robot_estimation/lib/robot_estimation
+Installing lowpass_filter script to /home/mohammadreza/Robotic_HW_1_3/Robotic/install/robot_estimation/lib/robot_estimation
+Installing odom_producer script to /home/mohammadreza/Robotic_HW_1_3/Robotic/install/robot_estimation/lib/robot_estimation
+writing list of installed files to '/home/mohammadreza/Robotic_HW_1_3/Robotic/build/robot_estimation/install.log'

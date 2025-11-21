@@ -1,0 +1,55 @@
+[1.134s] Invoking command in '/home/mohammadreza/Robotic_HW_1_3/Robotic/src/robot_estimation': PYTHONPATH=/home/mohammadreza/Robotic_HW_1_3/Robotic/build/robot_estimation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohammadreza/Robotic_HW_1_3/Robotic/install/robot_estimation/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_estimation build --build-base /home/mohammadreza/Robotic_HW_1_3/Robotic/build/robot_estimation/build install --record /home/mohammadreza/Robotic_HW_1_3/Robotic/build/robot_estimation/install.log --single-version-externally-managed install_data
+[1.459s] running egg_info
+[1.460s] creating ../../build/robot_estimation/robot_estimation.egg-info
+[1.480s] writing ../../build/robot_estimation/robot_estimation.egg-info/PKG-INFO
+[1.480s] writing dependency_links to ../../build/robot_estimation/robot_estimation.egg-info/dependency_links.txt
+[1.481s] writing entry points to ../../build/robot_estimation/robot_estimation.egg-info/entry_points.txt
+[1.481s] writing requirements to ../../build/robot_estimation/robot_estimation.egg-info/requires.txt
+[1.481s] writing top-level names to ../../build/robot_estimation/robot_estimation.egg-info/top_level.txt
+[1.481s] writing manifest file '../../build/robot_estimation/robot_estimation.egg-info/SOURCES.txt'
+[1.534s] reading manifest file '../../build/robot_estimation/robot_estimation.egg-info/SOURCES.txt'
+[1.535s] writing manifest file '../../build/robot_estimation/robot_estimation.egg-info/SOURCES.txt'
+[1.535s] running build
+[1.535s] running build_py
+[1.535s] creating /home/mohammadreza/Robotic_HW_1_3/Robotic/build/robot_estimation/build
+[1.536s] creating /home/mohammadreza/Robotic_HW_1_3/Robotic/build/robot_estimation/build/lib
+[1.536s] creating /home/mohammadreza/Robotic_HW_1_3/Robotic/build/robot_estimation/build/lib/robot_estimation
+[1.536s] copying robot_estimation/lowpass_filter.py -> /home/mohammadreza/Robotic_HW_1_3/Robotic/build/robot_estimation/build/lib/robot_estimation
+[1.536s] copying robot_estimation/complementary_filter.py -> /home/mohammadreza/Robotic_HW_1_3/Robotic/build/robot_estimation/build/lib/robot_estimation
+[1.536s] copying robot_estimation/odom_producer.py -> /home/mohammadreza/Robotic_HW_1_3/Robotic/build/robot_estimation/build/lib/robot_estimation
+[1.536s] copying robot_estimation/imu_bias_corrector.py -> /home/mohammadreza/Robotic_HW_1_3/Robotic/build/robot_estimation/build/lib/robot_estimation
+[1.537s] copying robot_estimation/__init__.py -> /home/mohammadreza/Robotic_HW_1_3/Robotic/build/robot_estimation/build/lib/robot_estimation
+[1.537s] copying robot_estimation/diff_drive_controller.py -> /home/mohammadreza/Robotic_HW_1_3/Robotic/build/robot_estimation/build/lib/robot_estimation
+[1.537s] running install
+[1.551s] running install_lib
+[1.584s] creating /home/mohammadreza/Robotic_HW_1_3/Robotic/install/robot_estimation/lib/python3.12/site-packages/robot_estimation
+[1.584s] copying /home/mohammadreza/Robotic_HW_1_3/Robotic/build/robot_estimation/build/lib/robot_estimation/lowpass_filter.py -> /home/mohammadreza/Robotic_HW_1_3/Robotic/install/robot_estimation/lib/python3.12/site-packages/robot_estimation
+[1.584s] copying /home/mohammadreza/Robotic_HW_1_3/Robotic/build/robot_estimation/build/lib/robot_estimation/complementary_filter.py -> /home/mohammadreza/Robotic_HW_1_3/Robotic/install/robot_estimation/lib/python3.12/site-packages/robot_estimation
+[1.584s] copying /home/mohammadreza/Robotic_HW_1_3/Robotic/build/robot_estimation/build/lib/robot_estimation/odom_producer.py -> /home/mohammadreza/Robotic_HW_1_3/Robotic/install/robot_estimation/lib/python3.12/site-packages/robot_estimation
+[1.584s] copying /home/mohammadreza/Robotic_HW_1_3/Robotic/build/robot_estimation/build/lib/robot_estimation/imu_bias_corrector.py -> /home/mohammadreza/Robotic_HW_1_3/Robotic/install/robot_estimation/lib/python3.12/site-packages/robot_estimation
+[1.584s] copying /home/mohammadreza/Robotic_HW_1_3/Robotic/build/robot_estimation/build/lib/robot_estimation/__init__.py -> /home/mohammadreza/Robotic_HW_1_3/Robotic/install/robot_estimation/lib/python3.12/site-packages/robot_estimation
+[1.585s] copying /home/mohammadreza/Robotic_HW_1_3/Robotic/build/robot_estimation/build/lib/robot_estimation/diff_drive_controller.py -> /home/mohammadreza/Robotic_HW_1_3/Robotic/install/robot_estimation/lib/python3.12/site-packages/robot_estimation
+[1.585s] byte-compiling /home/mohammadreza/Robotic_HW_1_3/Robotic/install/robot_estimation/lib/python3.12/site-packages/robot_estimation/lowpass_filter.py to lowpass_filter.cpython-312.pyc
+[1.587s] byte-compiling /home/mohammadreza/Robotic_HW_1_3/Robotic/install/robot_estimation/lib/python3.12/site-packages/robot_estimation/complementary_filter.py to complementary_filter.cpython-312.pyc
+[1.588s] byte-compiling /home/mohammadreza/Robotic_HW_1_3/Robotic/install/robot_estimation/lib/python3.12/site-packages/robot_estimation/odom_producer.py to odom_producer.cpython-312.pyc
+[1.589s] byte-compiling /home/mohammadreza/Robotic_HW_1_3/Robotic/install/robot_estimation/lib/python3.12/site-packages/robot_estimation/imu_bias_corrector.py to imu_bias_corrector.cpython-312.pyc
+[1.591s] byte-compiling /home/mohammadreza/Robotic_HW_1_3/Robotic/install/robot_estimation/lib/python3.12/site-packages/robot_estimation/__init__.py to __init__.cpython-312.pyc
+[1.591s] byte-compiling /home/mohammadreza/Robotic_HW_1_3/Robotic/install/robot_estimation/lib/python3.12/site-packages/robot_estimation/diff_drive_controller.py to diff_drive_controller.cpython-312.pyc
+[1.592s] running install_data
+[1.592s] creating /home/mohammadreza/Robotic_HW_1_3/Robotic/install/robot_estimation/share/ament_index
+[1.592s] creating /home/mohammadreza/Robotic_HW_1_3/Robotic/install/robot_estimation/share/ament_index/resource_index
+[1.592s] creating /home/mohammadreza/Robotic_HW_1_3/Robotic/install/robot_estimation/share/ament_index/resource_index/packages
+[1.592s] copying resource/robot_estimation -> /home/mohammadreza/Robotic_HW_1_3/Robotic/install/robot_estimation/share/ament_index/resource_index/packages
+[1.592s] copying package.xml -> /home/mohammadreza/Robotic_HW_1_3/Robotic/install/robot_estimation/share/robot_estimation
+[1.593s] creating /home/mohammadreza/Robotic_HW_1_3/Robotic/install/robot_estimation/share/robot_estimation/launch
+[1.593s] copying launch/estimation_pipeline.launch.py -> /home/mohammadreza/Robotic_HW_1_3/Robotic/install/robot_estimation/share/robot_estimation/launch
+[1.593s] running install_egg_info
+[1.617s] Copying ../../build/robot_estimation/robot_estimation.egg-info to /home/mohammadreza/Robotic_HW_1_3/Robotic/install/robot_estimation/lib/python3.12/site-packages/robot_estimation-0.0.0-py3.12.egg-info
+[1.618s] running install_scripts
+[1.767s] Installing complementary_filter script to /home/mohammadreza/Robotic_HW_1_3/Robotic/install/robot_estimation/lib/robot_estimation
+[1.767s] Installing diff_drive_controller script to /home/mohammadreza/Robotic_HW_1_3/Robotic/install/robot_estimation/lib/robot_estimation
+[1.767s] Installing imu_bias_corrector script to /home/mohammadreza/Robotic_HW_1_3/Robotic/install/robot_estimation/lib/robot_estimation
+[1.767s] Installing lowpass_filter script to /home/mohammadreza/Robotic_HW_1_3/Robotic/install/robot_estimation/lib/robot_estimation
+[1.767s] Installing odom_producer script to /home/mohammadreza/Robotic_HW_1_3/Robotic/install/robot_estimation/lib/robot_estimation
+[1.767s] writing list of installed files to '/home/mohammadreza/Robotic_HW_1_3/Robotic/build/robot_estimation/install.log'
+[1.805s] Invoked command in '/home/mohammadreza/Robotic_HW_1_3/Robotic/src/robot_estimation' returned '0': PYTHONPATH=/home/mohammadreza/Robotic_HW_1_3/Robotic/build/robot_estimation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohammadreza/Robotic_HW_1_3/Robotic/install/robot_estimation/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_estimation build --build-base /home/mohammadreza/Robotic_HW_1_3/Robotic/build/robot_estimation/build install --record /home/mohammadreza/Robotic_HW_1_3/Robotic/build/robot_estimation/install.log --single-version-externally-managed install_data
