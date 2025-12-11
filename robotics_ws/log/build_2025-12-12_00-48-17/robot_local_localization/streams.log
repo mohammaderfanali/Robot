@@ -1,0 +1,49 @@
+[1.308s] Invoking command in '/home/mohammadreza/term5/robotics_ws/src/robotic_course/robot_autonomy/robot_local_localization': PYTHONPATH=/home/mohammadreza/term5/robotics_ws/build/robot_local_localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohammadreza/term5/robotics_ws/install/robot_local_localization/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/robot_local_localization build --build-base /home/mohammadreza/term5/robotics_ws/build/robot_local_localization/build install --record /home/mohammadreza/term5/robotics_ws/build/robot_local_localization/install.log --single-version-externally-managed install_data
+[1.760s] running egg_info
+[1.760s] creating ../../../../build/robot_local_localization/robot_local_localization.egg-info
+[1.797s] writing ../../../../build/robot_local_localization/robot_local_localization.egg-info/PKG-INFO
+[1.797s] writing dependency_links to ../../../../build/robot_local_localization/robot_local_localization.egg-info/dependency_links.txt
+[1.798s] writing entry points to ../../../../build/robot_local_localization/robot_local_localization.egg-info/entry_points.txt
+[1.798s] writing requirements to ../../../../build/robot_local_localization/robot_local_localization.egg-info/requires.txt
+[1.798s] writing top-level names to ../../../../build/robot_local_localization/robot_local_localization.egg-info/top_level.txt
+[1.799s] writing manifest file '../../../../build/robot_local_localization/robot_local_localization.egg-info/SOURCES.txt'
+[1.869s] reading manifest file '../../../../build/robot_local_localization/robot_local_localization.egg-info/SOURCES.txt'
+[1.870s] writing manifest file '../../../../build/robot_local_localization/robot_local_localization.egg-info/SOURCES.txt'
+[1.871s] running build
+[1.871s] running build_py
+[1.871s] creating /home/mohammadreza/term5/robotics_ws/build/robot_local_localization/build
+[1.871s] creating /home/mohammadreza/term5/robotics_ws/build/robot_local_localization/build/lib
+[1.871s] creating /home/mohammadreza/term5/robotics_ws/build/robot_local_localization/build/lib/robot_local_localization
+[1.871s] copying robot_local_localization/measurement_node.py -> /home/mohammadreza/term5/robotics_ws/build/robot_local_localization/build/lib/robot_local_localization
+[1.872s] copying robot_local_localization/ekf_node.py -> /home/mohammadreza/term5/robotics_ws/build/robot_local_localization/build/lib/robot_local_localization
+[1.872s] copying robot_local_localization/prediction_node.py -> /home/mohammadreza/term5/robotics_ws/build/robot_local_localization/build/lib/robot_local_localization
+[1.872s] copying robot_local_localization/__init__.py -> /home/mohammadreza/term5/robotics_ws/build/robot_local_localization/build/lib/robot_local_localization
+[1.872s] copying robot_local_localization/test_path_node.py -> /home/mohammadreza/term5/robotics_ws/build/robot_local_localization/build/lib/robot_local_localization
+[1.872s] running install
+[1.885s] running install_lib
+[1.921s] creating /home/mohammadreza/term5/robotics_ws/install/robot_local_localization/lib/python3.12/site-packages/robot_local_localization
+[1.922s] copying /home/mohammadreza/term5/robotics_ws/build/robot_local_localization/build/lib/robot_local_localization/measurement_node.py -> /home/mohammadreza/term5/robotics_ws/install/robot_local_localization/lib/python3.12/site-packages/robot_local_localization
+[1.922s] copying /home/mohammadreza/term5/robotics_ws/build/robot_local_localization/build/lib/robot_local_localization/ekf_node.py -> /home/mohammadreza/term5/robotics_ws/install/robot_local_localization/lib/python3.12/site-packages/robot_local_localization
+[1.922s] copying /home/mohammadreza/term5/robotics_ws/build/robot_local_localization/build/lib/robot_local_localization/prediction_node.py -> /home/mohammadreza/term5/robotics_ws/install/robot_local_localization/lib/python3.12/site-packages/robot_local_localization
+[1.922s] copying /home/mohammadreza/term5/robotics_ws/build/robot_local_localization/build/lib/robot_local_localization/__init__.py -> /home/mohammadreza/term5/robotics_ws/install/robot_local_localization/lib/python3.12/site-packages/robot_local_localization
+[1.922s] copying /home/mohammadreza/term5/robotics_ws/build/robot_local_localization/build/lib/robot_local_localization/test_path_node.py -> /home/mohammadreza/term5/robotics_ws/install/robot_local_localization/lib/python3.12/site-packages/robot_local_localization
+[1.923s] byte-compiling /home/mohammadreza/term5/robotics_ws/install/robot_local_localization/lib/python3.12/site-packages/robot_local_localization/measurement_node.py to measurement_node.cpython-312.pyc
+[1.926s] byte-compiling /home/mohammadreza/term5/robotics_ws/install/robot_local_localization/lib/python3.12/site-packages/robot_local_localization/ekf_node.py to ekf_node.cpython-312.pyc
+[1.929s] byte-compiling /home/mohammadreza/term5/robotics_ws/install/robot_local_localization/lib/python3.12/site-packages/robot_local_localization/prediction_node.py to prediction_node.cpython-312.pyc
+[1.931s] byte-compiling /home/mohammadreza/term5/robotics_ws/install/robot_local_localization/lib/python3.12/site-packages/robot_local_localization/__init__.py to __init__.cpython-312.pyc
+[1.931s] byte-compiling /home/mohammadreza/term5/robotics_ws/install/robot_local_localization/lib/python3.12/site-packages/robot_local_localization/test_path_node.py to test_path_node.cpython-312.pyc
+[1.934s] running install_data
+[1.935s] creating /home/mohammadreza/term5/robotics_ws/install/robot_local_localization/share/ament_index
+[1.935s] creating /home/mohammadreza/term5/robotics_ws/install/robot_local_localization/share/ament_index/resource_index
+[1.935s] creating /home/mohammadreza/term5/robotics_ws/install/robot_local_localization/share/ament_index/resource_index/packages
+[1.935s] copying resource/robot_local_localization -> /home/mohammadreza/term5/robotics_ws/install/robot_local_localization/share/ament_index/resource_index/packages
+[1.935s] copying package.xml -> /home/mohammadreza/term5/robotics_ws/install/robot_local_localization/share/robot_local_localization
+[1.935s] running install_egg_info
+[1.972s] Copying ../../../../build/robot_local_localization/robot_local_localization.egg-info to /home/mohammadreza/term5/robotics_ws/install/robot_local_localization/lib/python3.12/site-packages/robot_local_localization-0.0.0-py3.12.egg-info
+[1.973s] running install_scripts
+[2.206s] Installing ekf_node script to /home/mohammadreza/term5/robotics_ws/install/robot_local_localization/lib/robot_local_localization
+[2.207s] Installing measurement_node script to /home/mohammadreza/term5/robotics_ws/install/robot_local_localization/lib/robot_local_localization
+[2.207s] Installing prediction_node script to /home/mohammadreza/term5/robotics_ws/install/robot_local_localization/lib/robot_local_localization
+[2.207s] Installing test_path_node script to /home/mohammadreza/term5/robotics_ws/install/robot_local_localization/lib/robot_local_localization
+[2.207s] writing list of installed files to '/home/mohammadreza/term5/robotics_ws/build/robot_local_localization/install.log'
+[2.258s] Invoked command in '/home/mohammadreza/term5/robotics_ws/src/robotic_course/robot_autonomy/robot_local_localization' returned '0': PYTHONPATH=/home/mohammadreza/term5/robotics_ws/build/robot_local_localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohammadreza/term5/robotics_ws/install/robot_local_localization/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/robot_local_localization build --build-base /home/mohammadreza/term5/robotics_ws/build/robot_local_localization/build install --record /home/mohammadreza/term5/robotics_ws/build/robot_local_localization/install.log --single-version-externally-managed install_data

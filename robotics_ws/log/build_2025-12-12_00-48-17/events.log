@@ -1,0 +1,419 @@
+[0.000000] (-) TimerEvent: {}
+[0.000799] (robot_description) JobQueued: {'identifier': 'robot_description', 'dependencies': OrderedDict()}
+[0.000953] (robot_local_localization) JobQueued: {'identifier': 'robot_local_localization', 'dependencies': OrderedDict()}
+[0.000988] (robot_description) JobStarted: {'identifier': 'robot_description'}
+[0.013105] (robot_local_localization) JobStarted: {'identifier': 'robot_local_localization'}
+[0.019877] (robot_description) JobProgress: {'identifier': 'robot_description', 'progress': 'cmake'}
+[0.021652] (robot_description) Command: {'cmd': ['/usr/bin/cmake', '/home/mohammadreza/term5/robotics_ws/src/robotic_course/robot_description', '-DCMAKE_INSTALL_PREFIX=/home/mohammadreza/term5/robotics_ws/install/robot_description'], 'cwd': '/home/mohammadreza/term5/robotics_ws/build/robot_description', 'env': OrderedDict({'LANGUAGE': 'en', 'USER': 'mohammadreza', 'LC_TIME': 'en_IE.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'OLDPWD': '/home/mohammadreza/term5', 'HOME': '/home/mohammadreza', 'LESS': '-R', 'DESKTOP_SESSION': 'ubuntu', 'ZSH': '/home/mohammadreza/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'GTK_MODULES': 'gail:atk-bridge', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'en_IE.UTF-8', 'SYSTEMD_EXEC_PID': '2913', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'P9K_TTY': 'old', 'COLORTERM': 'truecolor', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'COLCON_PREFIX_PATH': '/home/mohammadreza/term5/robotics_ws/install', 'LOGNAME': 'mohammadreza', '_': '/usr/bin/colcon', '_P9K_SSH_TTY': '/dev/pts/0', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'USERNAME': 'mohammadreza', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/mohammadreza-Vivobook-ASUSLaptop-X1502ZA-R1502ZA:@/tmp/.ICE-unix/2874,unix/mohammadreza-Vivobook-ASUSLaptop-X1502ZA-R1502ZA:/tmp/.ICE-unix/2874', 'PAPERSIZE': 'a4', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/04973b42_cf45_4b59_8c83_13e3c863d6a6', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LC_ADDRESS': 'en_IE.UTF-8', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'en_IE.UTF-8', 'XDG_SESSION_DESKTOP': 'ubuntu', 'GNOME_TERMINAL_SERVICE': ':1.111', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.NB7BH3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/mohammadreza/term5/robotics_ws/install/robot_local_localization:/home/mohammadreza/term5/robotics_ws/install/robot_description:/opt/ros/jazzy', 'SHELL': '/usr/bin/zsh', 'LC_NAME': 'en_IE.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LC_MEASUREMENT': 'en_IE.UTF-8', 'LC_IDENTIFICATION': 'en_IE.UTF-8', 'P9K_SSH': '0', 'QT_IM_MODULE': 'ibus', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/mohammadreza/term5/robotics_ws/build/robot_description', 'XDG_DATA_DIRS': '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', '_P9K_TTY': '/dev/pts/0', 'LC_NUMERIC': 'en_IE.UTF-8', 'PYTHONPATH': '/home/mohammadreza/term5/robotics_ws/install/robot_local_localization/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_PAPER': 'en_IE.UTF-8', 'COLCON': '1', 'VTE_VERSION': '7600', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/mohammadreza/term5/robotics_ws/install/robot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/mohammadreza/term5/robotics_ws/install/robot_local_localization:/opt/ros/jazzy'}), 'shell': False}
+[0.099851] (-) TimerEvent: {}
+[0.112281] (robot_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.199985] (-) TimerEvent: {}
+[0.203331] (robot_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.230870] (robot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.300205] (-) TimerEvent: {}
+[0.383168] (robot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.400319] (-) TimerEvent: {}
+[0.404908] (robot_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.405578] (robot_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.406056] (robot_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.425990] (robot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.500466] (-) TimerEvent: {}
+[0.600991] (-) TimerEvent: {}
+[0.614882] (robot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.632412] (robot_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.632893] (robot_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.633813] (robot_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.639911] (robot_description) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.701140] (-) TimerEvent: {}
+[0.801629] (-) TimerEvent: {}
+[0.894737] (robot_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.901858] (-) TimerEvent: {}
+[1.002328] (-) TimerEvent: {}
+[1.102167] (robot_description) StdoutLine: {'line': b'-- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[1.102520] (-) TimerEvent: {}
+[1.194425] (robot_description) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.202750] (-) TimerEvent: {}
+[1.224144] (robot_description) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.258557] (robot_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.296705] (robot_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.302955] (-) TimerEvent: {}
+[1.319415] (robot_local_localization) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../../../build/robot_local_localization', 'build', '--build-base', '/home/mohammadreza/term5/robotics_ws/build/robot_local_localization/build', 'install', '--record', '/home/mohammadreza/term5/robotics_ws/build/robot_local_localization/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/mohammadreza/term5/robotics_ws/src/robotic_course/robot_autonomy/robot_local_localization', 'env': {'LANGUAGE': 'en', 'USER': 'mohammadreza', 'LC_TIME': 'en_IE.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'OLDPWD': '/home/mohammadreza/term5', 'HOME': '/home/mohammadreza', 'LESS': '-R', 'DESKTOP_SESSION': 'ubuntu', 'ZSH': '/home/mohammadreza/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'GTK_MODULES': 'gail:atk-bridge', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'en_IE.UTF-8', 'SYSTEMD_EXEC_PID': '2913', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'P9K_TTY': 'old', 'COLORTERM': 'truecolor', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'COLCON_PREFIX_PATH': '/home/mohammadreza/term5/robotics_ws/install', 'LOGNAME': 'mohammadreza', '_': '/usr/bin/colcon', '_P9K_SSH_TTY': '/dev/pts/0', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'USERNAME': 'mohammadreza', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/mohammadreza-Vivobook-ASUSLaptop-X1502ZA-R1502ZA:@/tmp/.ICE-unix/2874,unix/mohammadreza-Vivobook-ASUSLaptop-X1502ZA-R1502ZA:/tmp/.ICE-unix/2874', 'PAPERSIZE': 'a4', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/04973b42_cf45_4b59_8c83_13e3c863d6a6', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LC_ADDRESS': 'en_IE.UTF-8', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'en_IE.UTF-8', 'XDG_SESSION_DESKTOP': 'ubuntu', 'GNOME_TERMINAL_SERVICE': ':1.111', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.NB7BH3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/mohammadreza/term5/robotics_ws/install/robot_local_localization:/home/mohammadreza/term5/robotics_ws/install/robot_description:/opt/ros/jazzy', 'SHELL': '/usr/bin/zsh', 'LC_NAME': 'en_IE.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LC_MEASUREMENT': 'en_IE.UTF-8', 'LC_IDENTIFICATION': 'en_IE.UTF-8', 'P9K_SSH': '0', 'QT_IM_MODULE': 'ibus', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/mohammadreza/term5/robotics_ws/build/robot_local_localization', 'XDG_DATA_DIRS': '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', '_P9K_TTY': '/dev/pts/0', 'LC_NUMERIC': 'en_IE.UTF-8', 'PYTHONPATH': '/home/mohammadreza/term5/robotics_ws/build/robot_local_localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mohammadreza/term5/robotics_ws/install/robot_local_localization/lib/python3.12/site-packages:/home/mohammadreza/term5/robotics_ws/install/robot_local_localization/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_PAPER': 'en_IE.UTF-8', 'COLCON': '1', 'VTE_VERSION': '7600', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/mohammadreza/term5/robotics_ws/install/robot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[1.403209] (-) TimerEvent: {}
+[1.460687] (robot_description) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.467968] (robot_description) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.503356] (-) TimerEvent: {}
+[1.603735] (-) TimerEvent: {}
+[1.628629] (robot_description) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[1.672915] (robot_description) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[1.703941] (-) TimerEvent: {}
+[1.718178] (robot_description) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.773191] (robot_local_localization) StdoutLine: {'line': b'running egg_info\n'}
+[1.773930] (robot_local_localization) StdoutLine: {'line': b'creating ../../../../build/robot_local_localization/robot_local_localization.egg-info\n'}
+[1.804093] (-) TimerEvent: {}
+[1.810415] (robot_local_localization) StdoutLine: {'line': b'writing ../../../../build/robot_local_localization/robot_local_localization.egg-info/PKG-INFO\n'}
+[1.810924] (robot_local_localization) StdoutLine: {'line': b'writing dependency_links to ../../../../build/robot_local_localization/robot_local_localization.egg-info/dependency_links.txt\n'}
+[1.811247] (robot_local_localization) StdoutLine: {'line': b'writing entry points to ../../../../build/robot_local_localization/robot_local_localization.egg-info/entry_points.txt\n'}
+[1.811555] (robot_local_localization) StdoutLine: {'line': b'writing requirements to ../../../../build/robot_local_localization/robot_local_localization.egg-info/requires.txt\n'}
+[1.811805] (robot_local_localization) StdoutLine: {'line': b'writing top-level names to ../../../../build/robot_local_localization/robot_local_localization.egg-info/top_level.txt\n'}
+[1.811976] (robot_local_localization) StdoutLine: {'line': b"writing manifest file '../../../../build/robot_local_localization/robot_local_localization.egg-info/SOURCES.txt'\n"}
+[1.882500] (robot_local_localization) StdoutLine: {'line': b"reading manifest file '../../../../build/robot_local_localization/robot_local_localization.egg-info/SOURCES.txt'\n"}
+[1.883555] (robot_description) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[1.883938] (robot_local_localization) StdoutLine: {'line': b"writing manifest file '../../../../build/robot_local_localization/robot_local_localization.egg-info/SOURCES.txt'\n"}
+[1.884208] (robot_local_localization) StdoutLine: {'line': b'running build\n'}
+[1.884367] (robot_local_localization) StdoutLine: {'line': b'running build_py\n'}
+[1.884476] (robot_local_localization) StdoutLine: {'line': b'creating /home/mohammadreza/term5/robotics_ws/build/robot_local_localization/build\n'}
+[1.884575] (robot_local_localization) StdoutLine: {'line': b'creating /home/mohammadreza/term5/robotics_ws/build/robot_local_localization/build/lib\n'}
+[1.884782] (robot_local_localization) StdoutLine: {'line': b'creating /home/mohammadreza/term5/robotics_ws/build/robot_local_localization/build/lib/robot_local_localization\n'}
+[1.884908] (robot_local_localization) StdoutLine: {'line': b'copying robot_local_localization/measurement_node.py -> /home/mohammadreza/term5/robotics_ws/build/robot_local_localization/build/lib/robot_local_localization\n'}
+[1.885016] (robot_local_localization) StdoutLine: {'line': b'copying robot_local_localization/ekf_node.py -> /home/mohammadreza/term5/robotics_ws/build/robot_local_localization/build/lib/robot_local_localization\n'}
+[1.885115] (robot_local_localization) StdoutLine: {'line': b'copying robot_local_localization/prediction_node.py -> /home/mohammadreza/term5/robotics_ws/build/robot_local_localization/build/lib/robot_local_localization\n'}
+[1.885316] (robot_local_localization) StdoutLine: {'line': b'copying robot_local_localization/__init__.py -> /home/mohammadreza/term5/robotics_ws/build/robot_local_localization/build/lib/robot_local_localization\n'}
+[1.885426] (robot_local_localization) StdoutLine: {'line': b'copying robot_local_localization/test_path_node.py -> /home/mohammadreza/term5/robotics_ws/build/robot_local_localization/build/lib/robot_local_localization\n'}
+[1.885556] (robot_local_localization) StdoutLine: {'line': b'running install\n'}
+[1.898338] (robot_local_localization) StdoutLine: {'line': b'running install_lib\n'}
+[1.904318] (-) TimerEvent: {}
+[1.934799] (robot_local_localization) StdoutLine: {'line': b'creating /home/mohammadreza/term5/robotics_ws/install/robot_local_localization/lib/python3.12/site-packages/robot_local_localization\n'}
+[1.935112] (robot_local_localization) StdoutLine: {'line': b'copying /home/mohammadreza/term5/robotics_ws/build/robot_local_localization/build/lib/robot_local_localization/measurement_node.py -> /home/mohammadreza/term5/robotics_ws/install/robot_local_localization/lib/python3.12/site-packages/robot_local_localization\n'}
+[1.935510] (robot_local_localization) StdoutLine: {'line': b'copying /home/mohammadreza/term5/robotics_ws/build/robot_local_localization/build/lib/robot_local_localization/ekf_node.py -> /home/mohammadreza/term5/robotics_ws/install/robot_local_localization/lib/python3.12/site-packages/robot_local_localization\n'}
+[1.935754] (robot_local_localization) StdoutLine: {'line': b'copying /home/mohammadreza/term5/robotics_ws/build/robot_local_localization/build/lib/robot_local_localization/prediction_node.py -> /home/mohammadreza/term5/robotics_ws/install/robot_local_localization/lib/python3.12/site-packages/robot_local_localization\n'}
+[1.935889] (robot_local_localization) StdoutLine: {'line': b'copying /home/mohammadreza/term5/robotics_ws/build/robot_local_localization/build/lib/robot_local_localization/__init__.py -> /home/mohammadreza/term5/robotics_ws/install/robot_local_localization/lib/python3.12/site-packages/robot_local_localization\n'}
+[1.935991] (robot_local_localization) StdoutLine: {'line': b'copying /home/mohammadreza/term5/robotics_ws/build/robot_local_localization/build/lib/robot_local_localization/test_path_node.py -> /home/mohammadreza/term5/robotics_ws/install/robot_local_localization/lib/python3.12/site-packages/robot_local_localization\n'}
+[1.936494] (robot_local_localization) StdoutLine: {'line': b'byte-compiling /home/mohammadreza/term5/robotics_ws/install/robot_local_localization/lib/python3.12/site-packages/robot_local_localization/measurement_node.py to measurement_node.cpython-312.pyc\n'}
+[1.939310] (robot_local_localization) StdoutLine: {'line': b'byte-compiling /home/mohammadreza/term5/robotics_ws/install/robot_local_localization/lib/python3.12/site-packages/robot_local_localization/ekf_node.py to ekf_node.cpython-312.pyc\n'}
+[1.942691] (robot_local_localization) StdoutLine: {'line': b'byte-compiling /home/mohammadreza/term5/robotics_ws/install/robot_local_localization/lib/python3.12/site-packages/robot_local_localization/prediction_node.py to prediction_node.cpython-312.pyc\n'}
+[1.944549] (robot_local_localization) StdoutLine: {'line': b'byte-compiling /home/mohammadreza/term5/robotics_ws/install/robot_local_localization/lib/python3.12/site-packages/robot_local_localization/__init__.py to __init__.cpython-312.pyc\n'}
+[1.944908] (robot_local_localization) StdoutLine: {'line': b'byte-compiling /home/mohammadreza/term5/robotics_ws/install/robot_local_localization/lib/python3.12/site-packages/robot_local_localization/test_path_node.py to test_path_node.cpython-312.pyc\n'}
+[1.947584] (robot_local_localization) StdoutLine: {'line': b'running install_data\n'}
+[1.948017] (robot_local_localization) StdoutLine: {'line': b'creating /home/mohammadreza/term5/robotics_ws/install/robot_local_localization/share/ament_index\n'}
+[1.948146] (robot_local_localization) StdoutLine: {'line': b'creating /home/mohammadreza/term5/robotics_ws/install/robot_local_localization/share/ament_index/resource_index\n'}
+[1.948274] (robot_local_localization) StdoutLine: {'line': b'creating /home/mohammadreza/term5/robotics_ws/install/robot_local_localization/share/ament_index/resource_index/packages\n'}
+[1.948385] (robot_local_localization) StdoutLine: {'line': b'copying resource/robot_local_localization -> /home/mohammadreza/term5/robotics_ws/install/robot_local_localization/share/ament_index/resource_index/packages\n'}
+[1.948486] (robot_local_localization) StdoutLine: {'line': b'copying package.xml -> /home/mohammadreza/term5/robotics_ws/install/robot_local_localization/share/robot_local_localization\n'}
+[1.948635] (robot_local_localization) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.985526] (robot_local_localization) StdoutLine: {'line': b'Copying ../../../../build/robot_local_localization/robot_local_localization.egg-info to /home/mohammadreza/term5/robotics_ws/install/robot_local_localization/lib/python3.12/site-packages/robot_local_localization-0.0.0-py3.12.egg-info\n'}
+[1.986752] (robot_local_localization) StdoutLine: {'line': b'running install_scripts\n'}
+[2.004484] (-) TimerEvent: {}
+[2.018681] (robot_description) StdoutLine: {'line': b'-- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)\n'}
+[2.077372] (robot_description) StdoutLine: {'line': b'-- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)\n'}
+[2.104727] (-) TimerEvent: {}
+[2.115351] (robot_description) StdoutLine: {'line': b'-- Found tf2: 0.36.14 (/opt/ros/jazzy/share/tf2/cmake)\n'}
+[2.142418] (robot_description) StdoutLine: {'line': b'-- Found tf2_ros: 0.36.14 (/opt/ros/jazzy/share/tf2_ros/cmake)\n'}
+[2.204947] (-) TimerEvent: {}
+[2.219361] (robot_local_localization) StdoutLine: {'line': b'Installing ekf_node script to /home/mohammadreza/term5/robotics_ws/install/robot_local_localization/lib/robot_local_localization\n'}
+[2.219962] (robot_local_localization) StdoutLine: {'line': b'Installing measurement_node script to /home/mohammadreza/term5/robotics_ws/install/robot_local_localization/lib/robot_local_localization\n'}
+[2.220238] (robot_local_localization) StdoutLine: {'line': b'Installing prediction_node script to /home/mohammadreza/term5/robotics_ws/install/robot_local_localization/lib/robot_local_localization\n'}
+[2.220459] (robot_local_localization) StdoutLine: {'line': b'Installing test_path_node script to /home/mohammadreza/term5/robotics_ws/install/robot_local_localization/lib/robot_local_localization\n'}
+[2.220782] (robot_local_localization) StdoutLine: {'line': b"writing list of installed files to '/home/mohammadreza/term5/robotics_ws/build/robot_local_localization/install.log'\n"}
+[2.270736] (robot_local_localization) CommandEnded: {'returncode': 0}
+[2.293577] (robot_local_localization) JobEnded: {'identifier': 'robot_local_localization', 'rc': 0}
+[2.305199] (-) TimerEvent: {}
+[2.405906] (-) TimerEvent: {}
+[2.432712] (robot_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[2.506125] (-) TimerEvent: {}
+[2.606651] (-) TimerEvent: {}
+[2.640246] (robot_description) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.640620] (robot_description) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[2.640758] (robot_description) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.642533] (robot_description) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.642776] (robot_description) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[2.644348] (robot_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.645711] (robot_description) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.648652] (robot_description) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.648880] (robot_description) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.650015] (robot_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.652980] (robot_description) StdoutLine: {'line': b'-- Configuring done (2.6s)\n'}
+[2.704070] (robot_description) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[2.706913] (-) TimerEvent: {}
+[2.722694] (robot_description) StdoutLine: {'line': b'-- Build files have been written to: /home/mohammadreza/term5/robotics_ws/build/robot_description\n'}
+[2.742842] (robot_description) CommandEnded: {'returncode': 0}
+[2.745237] (robot_description) JobProgress: {'identifier': 'robot_description', 'progress': 'build'}
+[2.745606] (robot_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mohammadreza/term5/robotics_ws/build/robot_description', '--', '-j20', '-l20'], 'cwd': '/home/mohammadreza/term5/robotics_ws/build/robot_description', 'env': OrderedDict({'LANGUAGE': 'en', 'USER': 'mohammadreza', 'LC_TIME': 'en_IE.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'OLDPWD': '/home/mohammadreza/term5', 'HOME': '/home/mohammadreza', 'LESS': '-R', 'DESKTOP_SESSION': 'ubuntu', 'ZSH': '/home/mohammadreza/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'GTK_MODULES': 'gail:atk-bridge', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'en_IE.UTF-8', 'SYSTEMD_EXEC_PID': '2913', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'P9K_TTY': 'old', 'COLORTERM': 'truecolor', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'COLCON_PREFIX_PATH': '/home/mohammadreza/term5/robotics_ws/install', 'LOGNAME': 'mohammadreza', '_': '/usr/bin/colcon', '_P9K_SSH_TTY': '/dev/pts/0', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'USERNAME': 'mohammadreza', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/mohammadreza-Vivobook-ASUSLaptop-X1502ZA-R1502ZA:@/tmp/.ICE-unix/2874,unix/mohammadreza-Vivobook-ASUSLaptop-X1502ZA-R1502ZA:/tmp/.ICE-unix/2874', 'PAPERSIZE': 'a4', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/04973b42_cf45_4b59_8c83_13e3c863d6a6', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LC_ADDRESS': 'en_IE.UTF-8', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'en_IE.UTF-8', 'XDG_SESSION_DESKTOP': 'ubuntu', 'GNOME_TERMINAL_SERVICE': ':1.111', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.NB7BH3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/mohammadreza/term5/robotics_ws/install/robot_local_localization:/home/mohammadreza/term5/robotics_ws/install/robot_description:/opt/ros/jazzy', 'SHELL': '/usr/bin/zsh', 'LC_NAME': 'en_IE.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LC_MEASUREMENT': 'en_IE.UTF-8', 'LC_IDENTIFICATION': 'en_IE.UTF-8', 'P9K_SSH': '0', 'QT_IM_MODULE': 'ibus', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/mohammadreza/term5/robotics_ws/build/robot_description', 'XDG_DATA_DIRS': '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', '_P9K_TTY': '/dev/pts/0', 'LC_NUMERIC': 'en_IE.UTF-8', 'PYTHONPATH': '/home/mohammadreza/term5/robotics_ws/install/robot_local_localization/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_PAPER': 'en_IE.UTF-8', 'COLCON': '1', 'VTE_VERSION': '7600', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/mohammadreza/term5/robotics_ws/install/robot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/mohammadreza/term5/robotics_ws/install/robot_local_localization:/opt/ros/jazzy'}), 'shell': False}
+[2.807109] (-) TimerEvent: {}
+[2.844196] (robot_description) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/motor_command_node.dir/scripts/motor_command.cpp.o\x1b[0m\n'}
+[2.846444] (robot_description) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/motor_controller_node.dir/scripts/motor_controller.cpp.o\x1b[0m\n'}
+[2.846840] (robot_description) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/frame_id_converter_node.dir/scripts/frame_id_converter.cpp.o\x1b[0m\n'}
+[2.849469] (robot_description) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/ekf_diff_imu_node.dir/scripts/ekf_diff_imu.cpp.o\x1b[0m\n'}
+[2.850361] (robot_description) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/wheel_odom_node.dir/scripts/wheel_odom_node.cpp.o\x1b[0m\n'}
+[2.907385] (-) TimerEvent: {}
+[3.007953] (-) TimerEvent: {}
+[3.108497] (-) TimerEvent: {}
+[3.209065] (-) TimerEvent: {}
+[3.309586] (-) TimerEvent: {}
+[3.410147] (-) TimerEvent: {}
+[3.510697] (-) TimerEvent: {}
+[3.611286] (-) TimerEvent: {}
+[3.711855] (-) TimerEvent: {}
+[3.812419] (-) TimerEvent: {}
+[3.912995] (-) TimerEvent: {}
+[4.013578] (-) TimerEvent: {}
+[4.114143] (-) TimerEvent: {}
+[4.214734] (-) TimerEvent: {}
+[4.315323] (-) TimerEvent: {}
+[4.415892] (-) TimerEvent: {}
+[4.516456] (-) TimerEvent: {}
+[4.617016] (-) TimerEvent: {}
+[4.717595] (-) TimerEvent: {}
+[4.818160] (-) TimerEvent: {}
+[4.918759] (-) TimerEvent: {}
+[5.019349] (-) TimerEvent: {}
+[5.119919] (-) TimerEvent: {}
+[5.220496] (-) TimerEvent: {}
+[5.321070] (-) TimerEvent: {}
+[5.421663] (-) TimerEvent: {}
+[5.522268] (-) TimerEvent: {}
+[5.622844] (-) TimerEvent: {}
+[5.723422] (-) TimerEvent: {}
+[5.823991] (-) TimerEvent: {}
+[5.924604] (-) TimerEvent: {}
+[6.025183] (-) TimerEvent: {}
+[6.125792] (-) TimerEvent: {}
+[6.226377] (-) TimerEvent: {}
+[6.326955] (-) TimerEvent: {}
+[6.427561] (-) TimerEvent: {}
+[6.528129] (-) TimerEvent: {}
+[6.628727] (-) TimerEvent: {}
+[6.729321] (-) TimerEvent: {}
+[6.829891] (-) TimerEvent: {}
+[6.930465] (-) TimerEvent: {}
+[7.031033] (-) TimerEvent: {}
+[7.131617] (-) TimerEvent: {}
+[7.232187] (-) TimerEvent: {}
+[7.332767] (-) TimerEvent: {}
+[7.433342] (-) TimerEvent: {}
+[7.533909] (-) TimerEvent: {}
+[7.634478] (-) TimerEvent: {}
+[7.735049] (-) TimerEvent: {}
+[7.835653] (-) TimerEvent: {}
+[7.936243] (-) TimerEvent: {}
+[8.036822] (-) TimerEvent: {}
+[8.137399] (-) TimerEvent: {}
+[8.237974] (-) TimerEvent: {}
+[8.338565] (-) TimerEvent: {}
+[8.439142] (-) TimerEvent: {}
+[8.539748] (-) TimerEvent: {}
+[8.640330] (-) TimerEvent: {}
+[8.740914] (-) TimerEvent: {}
+[8.841487] (-) TimerEvent: {}
+[8.942052] (-) TimerEvent: {}
+[9.042640] (-) TimerEvent: {}
+[9.143216] (-) TimerEvent: {}
+[9.243827] (-) TimerEvent: {}
+[9.344412] (-) TimerEvent: {}
+[9.444987] (-) TimerEvent: {}
+[9.545580] (-) TimerEvent: {}
+[9.646190] (-) TimerEvent: {}
+[9.746801] (-) TimerEvent: {}
+[9.847388] (-) TimerEvent: {}
+[9.947968] (-) TimerEvent: {}
+[10.048575] (-) TimerEvent: {}
+[10.149160] (-) TimerEvent: {}
+[10.249755] (-) TimerEvent: {}
+[10.350333] (-) TimerEvent: {}
+[10.450911] (-) TimerEvent: {}
+[10.551488] (-) TimerEvent: {}
+[10.652053] (-) TimerEvent: {}
+[10.752648] (-) TimerEvent: {}
+[10.853220] (-) TimerEvent: {}
+[10.953804] (-) TimerEvent: {}
+[11.054387] (-) TimerEvent: {}
+[11.154835] (-) TimerEvent: {}
+[11.255272] (-) TimerEvent: {}
+[11.355666] (-) TimerEvent: {}
+[11.456023] (-) TimerEvent: {}
+[11.556310] (-) TimerEvent: {}
+[11.656635] (-) TimerEvent: {}
+[11.757003] (-) TimerEvent: {}
+[11.857337] (-) TimerEvent: {}
+[11.957784] (-) TimerEvent: {}
+[12.058339] (-) TimerEvent: {}
+[12.158866] (-) TimerEvent: {}
+[12.259376] (-) TimerEvent: {}
+[12.359903] (-) TimerEvent: {}
+[12.460369] (-) TimerEvent: {}
+[12.560833] (-) TimerEvent: {}
+[12.661363] (-) TimerEvent: {}
+[12.761823] (-) TimerEvent: {}
+[12.862319] (-) TimerEvent: {}
+[12.962794] (-) TimerEvent: {}
+[13.063266] (-) TimerEvent: {}
+[13.163786] (-) TimerEvent: {}
+[13.264338] (-) TimerEvent: {}
+[13.364848] (-) TimerEvent: {}
+[13.465337] (-) TimerEvent: {}
+[13.565757] (-) TimerEvent: {}
+[13.666181] (-) TimerEvent: {}
+[13.766699] (-) TimerEvent: {}
+[13.867171] (-) TimerEvent: {}
+[13.967658] (-) TimerEvent: {}
+[14.068117] (-) TimerEvent: {}
+[14.168521] (-) TimerEvent: {}
+[14.269035] (-) TimerEvent: {}
+[14.369528] (-) TimerEvent: {}
+[14.469996] (-) TimerEvent: {}
+[14.570489] (-) TimerEvent: {}
+[14.670945] (-) TimerEvent: {}
+[14.771359] (-) TimerEvent: {}
+[14.871875] (-) TimerEvent: {}
+[14.972349] (-) TimerEvent: {}
+[15.072877] (-) TimerEvent: {}
+[15.173361] (-) TimerEvent: {}
+[15.273855] (-) TimerEvent: {}
+[15.374370] (-) TimerEvent: {}
+[15.474897] (-) TimerEvent: {}
+[15.575436] (-) TimerEvent: {}
+[15.675876] (-) TimerEvent: {}
+[15.776349] (-) TimerEvent: {}
+[15.876761] (-) TimerEvent: {}
+[15.977138] (-) TimerEvent: {}
+[16.077583] (-) TimerEvent: {}
+[16.177984] (-) TimerEvent: {}
+[16.278427] (-) TimerEvent: {}
+[16.350588] (robot_description) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX executable frame_id_converter_node\x1b[0m\n'}
+[16.378618] (-) TimerEvent: {}
+[16.479079] (-) TimerEvent: {}
+[16.579523] (-) TimerEvent: {}
+[16.680064] (-) TimerEvent: {}
+[16.780643] (-) TimerEvent: {}
+[16.858148] (robot_description) StdoutLine: {'line': b'[ 60%] Built target frame_id_converter_node\n'}
+[16.880908] (-) TimerEvent: {}
+[16.981462] (-) TimerEvent: {}
+[17.082024] (-) TimerEvent: {}
+[17.182590] (-) TimerEvent: {}
+[17.237280] (robot_description) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX executable motor_controller_node\x1b[0m\n'}
+[17.282855] (-) TimerEvent: {}
+[17.383389] (-) TimerEvent: {}
+[17.454649] (robot_description) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX executable motor_command_node\x1b[0m\n'}
+[17.483532] (-) TimerEvent: {}
+[17.584069] (-) TimerEvent: {}
+[17.684653] (-) TimerEvent: {}
+[17.772888] (robot_description) StdoutLine: {'line': b'[ 80%] Built target motor_controller_node\n'}
+[17.784917] (-) TimerEvent: {}
+[17.885464] (-) TimerEvent: {}
+[17.946533] (robot_description) StdoutLine: {'line': b'[ 80%] Built target motor_command_node\n'}
+[17.985703] (-) TimerEvent: {}
+[18.086172] (-) TimerEvent: {}
+[18.186664] (-) TimerEvent: {}
+[18.287142] (-) TimerEvent: {}
+[18.387631] (-) TimerEvent: {}
+[18.409967] (robot_description) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX executable wheel_odom_node\x1b[0m\n'}
+[18.487858] (-) TimerEvent: {}
+[18.588302] (-) TimerEvent: {}
+[18.688731] (-) TimerEvent: {}
+[18.789163] (-) TimerEvent: {}
+[18.889603] (-) TimerEvent: {}
+[18.930890] (robot_description) StdoutLine: {'line': b'[ 90%] Built target wheel_odom_node\n'}
+[18.989792] (-) TimerEvent: {}
+[19.090163] (-) TimerEvent: {}
+[19.190544] (-) TimerEvent: {}
+[19.290918] (-) TimerEvent: {}
+[19.391286] (-) TimerEvent: {}
+[19.491636] (-) TimerEvent: {}
+[19.591989] (-) TimerEvent: {}
+[19.692375] (-) TimerEvent: {}
+[19.792736] (-) TimerEvent: {}
+[19.893110] (-) TimerEvent: {}
+[19.993487] (-) TimerEvent: {}
+[20.093836] (-) TimerEvent: {}
+[20.194195] (-) TimerEvent: {}
+[20.294574] (-) TimerEvent: {}
+[20.394937] (-) TimerEvent: {}
+[20.495312] (-) TimerEvent: {}
+[20.595681] (-) TimerEvent: {}
+[20.696049] (-) TimerEvent: {}
+[20.796405] (-) TimerEvent: {}
+[20.896762] (-) TimerEvent: {}
+[20.997125] (-) TimerEvent: {}
+[21.097498] (-) TimerEvent: {}
+[21.197861] (-) TimerEvent: {}
+[21.298238] (-) TimerEvent: {}
+[21.398722] (-) TimerEvent: {}
+[21.499094] (-) TimerEvent: {}
+[21.599473] (-) TimerEvent: {}
+[21.699829] (-) TimerEvent: {}
+[21.800208] (-) TimerEvent: {}
+[21.900597] (-) TimerEvent: {}
+[22.000953] (-) TimerEvent: {}
+[22.101315] (-) TimerEvent: {}
+[22.201678] (-) TimerEvent: {}
+[22.302049] (-) TimerEvent: {}
+[22.402394] (-) TimerEvent: {}
+[22.502792] (-) TimerEvent: {}
+[22.603258] (-) TimerEvent: {}
+[22.703773] (-) TimerEvent: {}
+[22.804127] (-) TimerEvent: {}
+[22.904488] (-) TimerEvent: {}
+[23.004872] (-) TimerEvent: {}
+[23.105292] (-) TimerEvent: {}
+[23.205687] (-) TimerEvent: {}
+[23.306110] (-) TimerEvent: {}
+[23.328666] (robot_description) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ekf_diff_imu_node\x1b[0m\n'}
+[23.406328] (-) TimerEvent: {}
+[23.506732] (-) TimerEvent: {}
+[23.607133] (-) TimerEvent: {}
+[23.707533] (-) TimerEvent: {}
+[23.807928] (-) TimerEvent: {}
+[23.908325] (-) TimerEvent: {}
+[23.933418] (robot_description) StdoutLine: {'line': b'[100%] Built target ekf_diff_imu_node\n'}
+[23.948634] (robot_description) CommandEnded: {'returncode': 0}
+[23.949521] (robot_description) JobProgress: {'identifier': 'robot_description', 'progress': 'install'}
+[23.963014] (robot_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mohammadreza/term5/robotics_ws/build/robot_description'], 'cwd': '/home/mohammadreza/term5/robotics_ws/build/robot_description', 'env': OrderedDict({'LANGUAGE': 'en', 'USER': 'mohammadreza', 'LC_TIME': 'en_IE.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'OLDPWD': '/home/mohammadreza/term5', 'HOME': '/home/mohammadreza', 'LESS': '-R', 'DESKTOP_SESSION': 'ubuntu', 'ZSH': '/home/mohammadreza/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'GTK_MODULES': 'gail:atk-bridge', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'en_IE.UTF-8', 'SYSTEMD_EXEC_PID': '2913', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'P9K_TTY': 'old', 'COLORTERM': 'truecolor', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'COLCON_PREFIX_PATH': '/home/mohammadreza/term5/robotics_ws/install', 'LOGNAME': 'mohammadreza', '_': '/usr/bin/colcon', '_P9K_SSH_TTY': '/dev/pts/0', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'USERNAME': 'mohammadreza', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/mohammadreza-Vivobook-ASUSLaptop-X1502ZA-R1502ZA:@/tmp/.ICE-unix/2874,unix/mohammadreza-Vivobook-ASUSLaptop-X1502ZA-R1502ZA:/tmp/.ICE-unix/2874', 'PAPERSIZE': 'a4', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/04973b42_cf45_4b59_8c83_13e3c863d6a6', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LC_ADDRESS': 'en_IE.UTF-8', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'en_IE.UTF-8', 'XDG_SESSION_DESKTOP': 'ubuntu', 'GNOME_TERMINAL_SERVICE': ':1.111', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.NB7BH3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/mohammadreza/term5/robotics_ws/install/robot_local_localization:/home/mohammadreza/term5/robotics_ws/install/robot_description:/opt/ros/jazzy', 'SHELL': '/usr/bin/zsh', 'LC_NAME': 'en_IE.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LC_MEASUREMENT': 'en_IE.UTF-8', 'LC_IDENTIFICATION': 'en_IE.UTF-8', 'P9K_SSH': '0', 'QT_IM_MODULE': 'ibus', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/home/mohammadreza/term5/robotics_ws/build/robot_description', 'XDG_DATA_DIRS': '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', '_P9K_TTY': '/dev/pts/0', 'LC_NUMERIC': 'en_IE.UTF-8', 'PYTHONPATH': '/home/mohammadreza/term5/robotics_ws/install/robot_local_localization/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_PAPER': 'en_IE.UTF-8', 'COLCON': '1', 'VTE_VERSION': '7600', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/mohammadreza/term5/robotics_ws/install/robot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/mohammadreza/term5/robotics_ws/install/robot_local_localization:/opt/ros/jazzy'}), 'shell': False}
+[23.974365] (robot_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[23.974565] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/term5/robotics_ws/install/robot_description/share/robot_description/src\n'}
+[23.974769] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/term5/robotics_ws/install/robot_description/share/robot_description/src/description\n'}
+[23.974864] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/term5/robotics_ws/install/robot_description/share/robot_description/src/description/robot.urdf\n'}
+[23.974975] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/term5/robotics_ws/install/robot_description/share/robot_description/src/meshes\n'}
+[23.975101] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/term5/robotics_ws/install/robot_description/share/robot_description/src/meshes/wheel.STL\n'}
+[23.975180] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/term5/robotics_ws/install/robot_description/share/robot_description/src/meshes/wheel.usd\n'}
+[23.975271] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/term5/robotics_ws/install/robot_description/share/robot_description/src/meshes/Rear_Left_Caster_Wheel_Main.STL\n'}
+[23.975378] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/term5/robotics_ws/install/robot_description/share/robot_description/src/meshes/chasis.STL\n'}
+[23.997608] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/term5/robotics_ws/install/robot_description/share/robot_description/src/meshes/Front_Left_Caster_Wheel_Main.STL\n'}
+[23.998783] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/term5/robotics_ws/install/robot_description/share/robot_description/src/meshes/Rear_Right_Caster_Wheel_Main.STL\n'}
+[23.999092] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/term5/robotics_ws/install/robot_description/share/robot_description/src/meshes/zed.STL\n'}
+[23.999738] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/term5/robotics_ws/install/robot_description/share/robot_description/src/meshes/Rear_Trailing.STL\n'}
+[24.001886] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/term5/robotics_ws/install/robot_description/share/robot_description/src/meshes/Front_Right_Caster_Wheel_Main.STL\n'}
+[24.002219] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/term5/robotics_ws/install/robot_description/share/robot_description/launch\n'}
+[24.002417] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/term5/robotics_ws/install/robot_description/share/robot_description/launch/display.launch.py\n'}
+[24.002505] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/term5/robotics_ws/install/robot_description/share/robot_description/launch/gazebo.launch.py\n'}
+[24.002586] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/term5/robotics_ws/install/robot_description/share/robot_description/rviz\n'}
+[24.002720] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/term5/robotics_ws/install/robot_description/share/robot_description/rviz/config.rviz\n'}
+[24.002807] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/term5/robotics_ws/install/robot_description/share/robot_description/config\n'}
+[24.002899] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/term5/robotics_ws/install/robot_description/share/robot_description/config/gz_bridge.yaml\n'}
+[24.002970] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/term5/robotics_ws/install/robot_description/share/robot_description/config/rtabmap_slam.yaml\n'}
+[24.003042] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/term5/robotics_ws/install/robot_description/share/robot_description/world\n'}
+[24.003113] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/term5/robotics_ws/install/robot_description/share/robot_description/world/depot.sdf\n'}
+[24.003178] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/term5/robotics_ws/install/robot_description/share/robot_description/world/test.sdf\n'}
+[24.003442] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/term5/robotics_ws/install/robot_description/share/robot_description/scripts\n'}
+[24.003560] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/term5/robotics_ws/install/robot_description/share/robot_description/scripts/motor_command.cpp\n'}
+[24.003638] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/term5/robotics_ws/install/robot_description/share/robot_description/scripts/wheel_odom_node.cpp\n'}
+[24.003713] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/term5/robotics_ws/install/robot_description/share/robot_description/scripts/ekf_diff_imu.cpp\n'}
+[24.003784] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/term5/robotics_ws/install/robot_description/share/robot_description/scripts/frame_id_converter.cpp\n'}
+[24.003854] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/term5/robotics_ws/install/robot_description/share/robot_description/scripts/motor_controller.cpp\n'}
+[24.003922] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/term5/robotics_ws/install/robot_description/lib/robot_description/frame_id_converter_node\n'}
+[24.007465] (robot_description) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mohammadreza/term5/robotics_ws/install/robot_description/lib/robot_description/frame_id_converter_node" to ""\n'}
+[24.007651] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/term5/robotics_ws/install/robot_description/lib/robot_description/ekf_diff_imu_node\n'}
+[24.008383] (-) TimerEvent: {}
+[24.015487] (robot_description) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mohammadreza/term5/robotics_ws/install/robot_description/lib/robot_description/ekf_diff_imu_node" to ""\n'}
+[24.015690] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/term5/robotics_ws/install/robot_description/lib/robot_description/motor_command_node\n'}
+[24.020247] (robot_description) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mohammadreza/term5/robotics_ws/install/robot_description/lib/robot_description/motor_command_node" to ""\n'}
+[24.020450] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/term5/robotics_ws/install/robot_description/lib/robot_description/wheel_odom_node\n'}
+[24.024920] (robot_description) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mohammadreza/term5/robotics_ws/install/robot_description/lib/robot_description/wheel_odom_node" to ""\n'}
+[24.025119] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/term5/robotics_ws/install/robot_description/lib/robot_description/motor_controller_node\n'}
+[24.029683] (robot_description) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mohammadreza/term5/robotics_ws/install/robot_description/lib/robot_description/motor_controller_node" to ""\n'}
+[24.029883] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/term5/robotics_ws/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description\n'}
+[24.030117] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/term5/robotics_ws/install/robot_description/share/ament_index/resource_index/parent_prefix_path/robot_description\n'}
+[24.030336] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/term5/robotics_ws/install/robot_description/share/robot_description/environment/ament_prefix_path.sh\n'}
+[24.030431] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/term5/robotics_ws/install/robot_description/share/robot_description/environment/ament_prefix_path.dsv\n'}
+[24.030511] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/term5/robotics_ws/install/robot_description/share/robot_description/environment/path.sh\n'}
+[24.030594] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/term5/robotics_ws/install/robot_description/share/robot_description/environment/path.dsv\n'}
+[24.030705] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/term5/robotics_ws/install/robot_description/share/robot_description/local_setup.bash\n'}
+[24.030784] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/term5/robotics_ws/install/robot_description/share/robot_description/local_setup.sh\n'}
+[24.030862] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/term5/robotics_ws/install/robot_description/share/robot_description/local_setup.zsh\n'}
+[24.030939] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/term5/robotics_ws/install/robot_description/share/robot_description/local_setup.dsv\n'}
+[24.031012] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/term5/robotics_ws/install/robot_description/share/robot_description/package.dsv\n'}
+[24.031088] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/term5/robotics_ws/install/robot_description/share/ament_index/resource_index/packages/robot_description\n'}
+[24.031206] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/term5/robotics_ws/install/robot_description/share/robot_description/cmake/robot_descriptionConfig.cmake\n'}
+[24.031306] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/term5/robotics_ws/install/robot_description/share/robot_description/cmake/robot_descriptionConfig-version.cmake\n'}
+[24.031376] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/term5/robotics_ws/install/robot_description/share/robot_description/package.xml\n'}
+[24.033922] (robot_description) CommandEnded: {'returncode': 0}
+[24.047175] (robot_description) JobEnded: {'identifier': 'robot_description', 'rc': 0}
+[24.047994] (-) EventReactorShutdown: {}
