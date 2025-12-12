@@ -10,13 +10,15 @@
 
 This repository hosts a series of practical assignments for the **Robotics** course (Sharif University of Technology).
 
-**Assignment 1** focuses on implementing an **Extended Kalman Filter (EKF)** from scratch in ROS 2 (Python) to achieve robust robot localization by fusing data from multiple sensors. The implementation follows the standard EKF prediction-correction loop. 
+**Assignment 1** focuses on implementing an **Extended Kalman Filter (EKF)** from scratch in ROS 2 (Python) to achieve robust robot localization by fusing data from multiple sensors. The implementation follows the standard EKF prediction-correction loop.
 
 * **Objective:** Implement a custom EKF node to fuse Odometry (Wheel Encoders), Visual Odometry (VO), and IMU Yaw into a single, reliable state estimate.
 * **State Vector:** $\mathbf{x} = [x, y, \theta]^T$ (Position and Yaw).
 * **Environment:** ROS 2 (Jazzy/Humble) running on Ubuntu.
 
-### :robot: Core Implementation: Extended Kalman Filter (EKF)
+---
+
+### :robot: Core Implementation: Assignment 1 (EKF Sensor Fusion)
 
 The project consists of three main custom ROS 2 nodes, designed to operate in parallel, enabling the data fusion process:
 
@@ -40,25 +42,26 @@ The project consists of three main custom ROS 2 nodes, designed to operate in pa
 
 * **Output:** Publishes the final, filtered `Odometry` message on the `/ekf/odom` topic (the robot's best position estimate).
 
-### :chart_with_upwards_trend: Tuning and Analysis
+---
 
-The stability and accuracy of the EKF are entirely dependent on properly setting the $\mathbf{Q}$ and $\mathbf{R}$ covariance matrices. This project includes extensive debugging and tuning of these parameters.
+### :clipboard: Assignment 2: Gazebo Simulation & URDF
 
-| Matrix | Parameter Name | Function | Impact on Performance |
-| :--- | :--- | :--- | :--- |
-| $\mathbf{Q}$ | Process Noise (in `ekf_node`) | Uncertainty of the Motion Model (Wheels). | If **too small**, the EKF trusts the Prediction too much and will drift. |
-| $\mathbf{R}$ | Measurement Noise (in `measurement_node`) | Uncertainty of the Sensor Measurements (VO/IMU). | If **too small**, the EKF trusts the Measurement too much and will jump/jitter (high noise). |
+This assignment focuses on setting up a full robot simulation environment using Gazebo, defining the robot's physical structure with URDF, and incorporating the differential drive plugin.
 
-#### Analysis Tools
-* **`ros2 bag record`:** Used to log key data topics (`/ekf/odom`, `/wheel_odom/odom`, `/ekf/measurement`).
-* **Foxglove Studio / rqt_plot:** Used for visual comparison of time series data ($X, Y, \theta$) and 2D/3D robot paths to evaluate filtering performance.
+#### :running: Execution Instructions
 
-### :wrench: Tools & Technologies Used
+To run the Gazebo simulation for this assignment, follow these steps in your ROS 2 workspace:
 
-* **ROS 2 (Robot Operating System 2):** Core framework for node communication and data handling.
-* **Python 3:** Primary language for EKF and support node implementation.
-* **NumPy:** Essential for matrix operations, covariance management, and the core EKF mathematics.
-* **`tf_transformations`:** Utilized for converting between quaternion and Euler (Yaw) representations.
+```bash
+# 1. Source the main ROS 2 installation (if not already done)
+source /opt/ros/jazzy/setup.bash
 
-### 👨‍💻 Author
-* **Mohammadreza Monemian**
+# 2. Clean and rebuild the workspace (if needed)
+rm -rf build log install
+colcon build 
+
+# 3. Source the local workspace installation
+source install/setup.bash
+
+# 4. Launch the Gazebo simulation and the robot description
+ros2 launch robot_description gazebo.launch.py
