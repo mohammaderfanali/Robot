@@ -41,6 +41,10 @@ The project consists of three main custom ROS 2 nodes, designed to operate in pa
     * **Correction Step:** Uses the Measurement input to calculate the Kalman Gain ($\mathbf{K}$) and update the final filtered state ($\mathbf{x}_k$) and final covariance ($\mathbf{P}_k$).
 
 * **Output:** Publishes the final, filtered `Odometry` message on the `/ekf/odom` topic (the robot's best position estimate).
+* <div align="center">
+    <img src="HW2/result_rviz.png" alt="Screenshot of the Rviz simulation environment displaying the robot model."/>
+    <p>Screenshot of the Robot Model in Rviz Simulation</p>
+</div>
 
 ---
 
