@@ -10,7 +10,7 @@
 
 This repository hosts a series of practical assignments for the **Robotics** course (Sharif University of Technology).
 
-**Assignment 1** focuses on implementing an **Extended Kalman Filter (EKF)** from scratch in ROS 2 (Python) to achieve robust robot localization by fusing data from multiple sensors. The implementation follows the standard EKF prediction-correction loop.
+**Assignment 2** focuses on implementing an **Extended Kalman Filter (EKF)** from scratch in ROS 2 (Python) to achieve robust robot localization by fusing data from multiple sensors. The implementation follows the standard EKF prediction-correction loop.
 
 * **Objective:** Implement a custom EKF node to fuse Odometry (Wheel Encoders), Visual Odometry (VO), and IMU Yaw into a single, reliable state estimate.
 * **State Vector:** $\mathbf{x} = [x, y, \theta]^T$ (Position and Yaw).
@@ -18,7 +18,7 @@ This repository hosts a series of practical assignments for the **Robotics** cou
 
 ---
 
-### :robot: Core Implementation: Assignment 1 (EKF Sensor Fusion)
+### :robot: Core Implementation: Assignment 2 (EKF Sensor Fusion)
 
 The project consists of three main custom ROS 2 nodes, designed to operate in parallel, enabling the data fusion process:
 
