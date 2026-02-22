@@ -1,0 +1,66 @@
+[0.044s] Invoking command in '/home/mohammadreza/Robot/HW3/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/mohammadreza/Robot/HW3/build/robot_description -- -j20 -l20
+[0.223s] [ 33%] Built target motor_command_node
+[0.224s] [ 66%] Built target frame_id_converter_node
+[0.231s] [100%] Built target ekf_diff_imu_node
+[0.265s] Invoked command in '/home/mohammadreza/Robot/HW3/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/mohammadreza/Robot/HW3/build/robot_description -- -j20 -l20
+[0.296s] Invoking command in '/home/mohammadreza/Robot/HW3/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/mohammadreza/Robot/HW3/build/robot_description
+[0.320s] -- Install configuration: ""
+[0.321s] -- Up-to-date: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/src
+[0.321s] -- Up-to-date: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/src/description
+[0.322s] -- Up-to-date: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/src/description/robot.urdf
+[0.322s] -- Up-to-date: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/src/meshes
+[0.323s] -- Up-to-date: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/src/meshes/wheel.STL
+[0.323s] -- Up-to-date: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/src/meshes/wheel.usd
+[0.323s] -- Up-to-date: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/src/meshes/Rear_Left_Caster_Wheel_Main.STL
+[0.323s] -- Up-to-date: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/src/meshes/chasis.STL
+[0.324s] -- Up-to-date: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/src/meshes/Front_Left_Caster_Wheel_Main.STL
+[0.324s] -- Up-to-date: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/src/meshes/Rear_Right_Caster_Wheel_Main.STL
+[0.324s] -- Up-to-date: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/src/meshes/zed.STL
+[0.325s] -- Up-to-date: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/src/meshes/Rear_Trailing.STL
+[0.325s] -- Up-to-date: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/src/meshes/Front_Right_Caster_Wheel_Main.STL
+[0.325s] -- Up-to-date: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/launch
+[0.326s] -- Up-to-date: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/launch/display.launch.py
+[0.326s] -- Up-to-date: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/launch/gazebo.launch.py
+[0.327s] -- Up-to-date: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/rviz
+[0.327s] -- Up-to-date: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/rviz/config.rviz
+[0.327s] -- Up-to-date: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/rviz/c.rviz
+[0.328s] -- Up-to-date: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/config
+[0.328s] -- Up-to-date: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/config/gz_bridge.yaml
+[0.328s] -- Up-to-date: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/config/rtabmap_slam.yaml
+[0.328s] -- Up-to-date: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/world
+[0.329s] -- Up-to-date: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/world/depot.sdf
+[0.329s] -- Up-to-date: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/world/test.sdf
+[0.330s] -- Up-to-date: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/scripts
+[0.330s] -- Up-to-date: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/scripts/motor_command.cpp
+[0.330s] -- Up-to-date: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/scripts/map_publisher.py
+[0.330s] -- Installing: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/scripts/particle_filter.py
+[0.330s] -- Up-to-date: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/scripts/gym_gazebo_env.py
+[0.331s] -- Up-to-date: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/scripts/ekf_diff_imu.cpp
+[0.331s] -- Up-to-date: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/scripts/test_env.py
+[0.331s] -- Up-to-date: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/scripts/frame_id_converter.cpp
+[0.331s] -- Up-to-date: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/scripts/__pycache__
+[0.331s] -- Up-to-date: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/scripts/__pycache__/gym_gazebo_env.cpython-310.pyc
+[0.331s] -- Up-to-date: /home/mohammadreza/Robot/HW3/install/robot_description/lib/robot_description/frame_id_converter_node
+[0.332s] -- Up-to-date: /home/mohammadreza/Robot/HW3/install/robot_description/lib/robot_description/ekf_diff_imu_node
+[0.332s] -- Up-to-date: /home/mohammadreza/Robot/HW3/install/robot_description/lib/robot_description/motor_command_node
+[0.332s] -- Up-to-date: /home/mohammadreza/Robot/HW3/install/robot_description/lib/robot_description/map_publisher.py
+[0.332s] -- Installing: /home/mohammadreza/Robot/HW3/install/robot_description/lib/robot_description/particle_filter.py
+[0.332s] -- Up-to-date: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/maps
+[0.333s] -- Up-to-date: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/maps/depot.yaml
+[0.333s] -- Up-to-date: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/maps/depot.pgm
+[0.333s] -- Up-to-date: /home/mohammadreza/Robot/HW3/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description
+[0.333s] -- Up-to-date: /home/mohammadreza/Robot/HW3/install/robot_description/share/ament_index/resource_index/parent_prefix_path/robot_description
+[0.334s] -- Up-to-date: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/environment/ament_prefix_path.sh
+[0.334s] -- Up-to-date: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/environment/ament_prefix_path.dsv
+[0.334s] -- Up-to-date: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/environment/path.sh
+[0.336s] -- Up-to-date: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/environment/path.dsv
+[0.336s] -- Up-to-date: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/local_setup.bash
+[0.337s] -- Up-to-date: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/local_setup.sh
+[0.337s] -- Up-to-date: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/local_setup.zsh
+[0.339s] -- Up-to-date: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/local_setup.dsv
+[0.339s] -- Installing: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/package.dsv
+[0.340s] -- Up-to-date: /home/mohammadreza/Robot/HW3/install/robot_description/share/ament_index/resource_index/packages/robot_description
+[0.340s] -- Up-to-date: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/cmake/robot_descriptionConfig.cmake
+[0.340s] -- Up-to-date: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/cmake/robot_descriptionConfig-version.cmake
+[0.340s] -- Up-to-date: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/package.xml
+[0.340s] Invoked command in '/home/mohammadreza/Robot/HW3/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/mohammadreza/Robot/HW3/build/robot_description

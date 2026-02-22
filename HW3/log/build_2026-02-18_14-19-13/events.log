@@ -1,0 +1,353 @@
+[0.000000] (-) TimerEvent: {}
+[0.000753] (robot_description) JobQueued: {'identifier': 'robot_description', 'dependencies': OrderedDict()}
+[0.001615] (robot_description) JobStarted: {'identifier': 'robot_description'}
+[0.022257] (robot_description) JobProgress: {'identifier': 'robot_description', 'progress': 'cmake'}
+[0.022737] (robot_description) Command: {'cmd': ['/usr/bin/cmake', '/home/mohammadreza/Robot/HW3/src/robot_description', '-DCMAKE_INSTALL_PREFIX=/home/mohammadreza/Robot/HW3/install/robot_description'], 'cwd': '/home/mohammadreza/Robot/HW3/build/robot_description', 'env': OrderedDict({'HTTPS_PROXY': 'http://127.0.0.1:2080/', 'USER': 'mohammadreza', 'LANGUAGE': 'en', 'no_proxy': 'localhost,127.0.0.0/8,::1', 'LC_TIME': 'en_IE.UTF-8', 'all_proxy': 'socks://127.0.0.1:2080/', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/mohammadreza', 'OLDPWD': '/home/mohammadreza/Robot/HW3/src', 'LESS': '-R', 'DESKTOP_SESSION': 'ubuntu', 'NO_PROXY': 'localhost,127.0.0.0/8,::1', 'ZSH': '/home/mohammadreza/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'GTK_MODULES': 'gail:atk-bridge', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'en_IE.UTF-8', 'SYSTEMD_EXEC_PID': '2841', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=e3545ce4edc58a03ac76454a699577a6', 'DBUS_STARTER_BUS_TYPE': 'session', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'P9K_TTY': 'old', 'COLORTERM': 'truecolor', 'WAYLAND_DISPLAY': 'wayland-0', 'https_proxy': 'http://127.0.0.1:2080/', 'ROS_DISTRO': 'jazzy', 'COLCON_PREFIX_PATH': '/home/mohammadreza/Robot/HW3/install', 'LOGNAME': 'mohammadreza', 'ALL_PROXY': 'socks://127.0.0.1:2080/', 'http_proxy': 'http://127.0.0.1:2080/', '_': '/usr/bin/colcon', '_P9K_SSH_TTY': '/dev/pts/0', 'XDG_SESSION_CLASS': 'user', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'ROS_VERSION': '2', 'USERNAME': 'mohammadreza', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/mohammadreza-Vivobook-ASUSLaptop-X1502ZA-R1502ZA:@/tmp/.ICE-unix/2841,unix/mohammadreza-Vivobook-ASUSLaptop-X1502ZA-R1502ZA:/tmp/.ICE-unix/2841', 'PAPERSIZE': 'a4', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LC_ADDRESS': 'en_IE.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/7e03d41f_3cc5_4457_b13b_b9e38ace4f07', 'ftp_proxy': 'http://127.0.0.1:2080/', 'XDG_MENU_PREFIX': 'gnome-', 'DISPLAY': ':0', 'LC_TELEPHONE': 'en_IE.UTF-8', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.QFGBL3', 'XDG_SESSION_DESKTOP': 'ubuntu', 'GNOME_TERMINAL_SERVICE': ':1.178', 'XMODIFIERS': '@im=ibus', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/mohammadreza/Robot/HW3/install/robot_description:/opt/ros/jazzy', 'LC_NAME': 'en_IE.UTF-8', 'SHELL': '/usr/bin/zsh', 'GDMSESSION': 'ubuntu', 'QT_ACCESSIBILITY': '1', 'LC_MEASUREMENT': 'en_IE.UTF-8', 'LC_IDENTIFICATION': 'en_IE.UTF-8', 'P9K_SSH': '0', 'QT_IM_MODULE': 'ibus', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/mohammadreza/Robot/HW3/build/robot_description', 'LC_ALL': 'en_US.UTF-8', 'XDG_DATA_DIRS': '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'FTP_PROXY': 'http://127.0.0.1:2080/', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=e3545ce4edc58a03ac76454a699577a6', '_P9K_TTY': '/dev/pts/0', 'HTTP_PROXY': 'http://127.0.0.1:2080/', 'LC_NUMERIC': 'en_IE.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_PAPER': 'en_IE.UTF-8', 'COLCON': '1', 'VTE_VERSION': '7600', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/mohammadreza/Robot/HW3/install/robot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099689] (-) TimerEvent: {}
+[0.108271] (robot_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.188429] (robot_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.199895] (-) TimerEvent: {}
+[0.214707] (robot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.300021] (-) TimerEvent: {}
+[0.352129] (robot_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.365902] (robot_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.366301] (robot_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.366788] (robot_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.381237] (robot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.400113] (-) TimerEvent: {}
+[0.500430] (-) TimerEvent: {}
+[0.532010] (robot_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.547244] (robot_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.547800] (robot_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.548589] (robot_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.554265] (robot_description) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.600517] (-) TimerEvent: {}
+[0.700878] (-) TimerEvent: {}
+[0.781724] (robot_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.801075] (-) TimerEvent: {}
+[0.901368] (-) TimerEvent: {}
+[0.948290] (robot_description) StdoutLine: {'line': b'-- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[1.001478] (-) TimerEvent: {}
+[1.024230] (robot_description) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.048136] (robot_description) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.072478] (robot_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.100121] (robot_description) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.101587] (-) TimerEvent: {}
+[1.201927] (-) TimerEvent: {}
+[1.218543] (robot_description) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.224218] (robot_description) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.302052] (-) TimerEvent: {}
+[1.361636] (robot_description) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[1.394236] (robot_description) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[1.402237] (-) TimerEvent: {}
+[1.430831] (robot_description) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.502385] (-) TimerEvent: {}
+[1.548901] (robot_description) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[1.602568] (-) TimerEvent: {}
+[1.637739] (robot_description) StdoutLine: {'line': b'-- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)\n'}
+[1.677835] (robot_description) StdoutLine: {'line': b'-- Found std_srvs: 5.3.6 (/opt/ros/jazzy/share/std_srvs/cmake)\n'}
+[1.702753] (-) TimerEvent: {}
+[1.703087] (robot_description) StdoutLine: {'line': b'-- Found tf2: 0.36.14 (/opt/ros/jazzy/share/tf2/cmake)\n'}
+[1.722405] (robot_description) StdoutLine: {'line': b'-- Found tf2_ros: 0.36.14 (/opt/ros/jazzy/share/tf2_ros/cmake)\n'}
+[1.802966] (-) TimerEvent: {}
+[1.903345] (-) TimerEvent: {}
+[1.924217] (robot_description) StdoutLine: {'line': b'-- Found rclpy: 7.1.5 (/opt/ros/jazzy/share/rclpy/cmake)\n'}
+[1.933803] (robot_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[2.003484] (-) TimerEvent: {}
+[2.095901] (robot_description) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.096311] (robot_description) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[2.096402] (robot_description) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.097401] (robot_description) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.097569] (robot_description) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[2.098698] (robot_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.099806] (robot_description) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.102193] (robot_description) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.102369] (robot_description) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.103420] (robot_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.103593] (-) TimerEvent: {}
+[2.105479] (robot_description) StdoutLine: {'line': b'-- Configuring done (2.1s)\n'}
+[2.134629] (robot_description) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[2.143648] (robot_description) StdoutLine: {'line': b'-- Build files have been written to: /home/mohammadreza/Robot/HW3/build/robot_description\n'}
+[2.159279] (robot_description) CommandEnded: {'returncode': 0}
+[2.159736] (robot_description) JobProgress: {'identifier': 'robot_description', 'progress': 'build'}
+[2.159766] (robot_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mohammadreza/Robot/HW3/build/robot_description', '--', '-j20', '-l20'], 'cwd': '/home/mohammadreza/Robot/HW3/build/robot_description', 'env': OrderedDict({'HTTPS_PROXY': 'http://127.0.0.1:2080/', 'USER': 'mohammadreza', 'LANGUAGE': 'en', 'no_proxy': 'localhost,127.0.0.0/8,::1', 'LC_TIME': 'en_IE.UTF-8', 'all_proxy': 'socks://127.0.0.1:2080/', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/mohammadreza', 'OLDPWD': '/home/mohammadreza/Robot/HW3/src', 'LESS': '-R', 'DESKTOP_SESSION': 'ubuntu', 'NO_PROXY': 'localhost,127.0.0.0/8,::1', 'ZSH': '/home/mohammadreza/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'GTK_MODULES': 'gail:atk-bridge', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'en_IE.UTF-8', 'SYSTEMD_EXEC_PID': '2841', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=e3545ce4edc58a03ac76454a699577a6', 'DBUS_STARTER_BUS_TYPE': 'session', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'P9K_TTY': 'old', 'COLORTERM': 'truecolor', 'WAYLAND_DISPLAY': 'wayland-0', 'https_proxy': 'http://127.0.0.1:2080/', 'ROS_DISTRO': 'jazzy', 'COLCON_PREFIX_PATH': '/home/mohammadreza/Robot/HW3/install', 'LOGNAME': 'mohammadreza', 'ALL_PROXY': 'socks://127.0.0.1:2080/', 'http_proxy': 'http://127.0.0.1:2080/', '_': '/usr/bin/colcon', '_P9K_SSH_TTY': '/dev/pts/0', 'XDG_SESSION_CLASS': 'user', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'ROS_VERSION': '2', 'USERNAME': 'mohammadreza', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/mohammadreza-Vivobook-ASUSLaptop-X1502ZA-R1502ZA:@/tmp/.ICE-unix/2841,unix/mohammadreza-Vivobook-ASUSLaptop-X1502ZA-R1502ZA:/tmp/.ICE-unix/2841', 'PAPERSIZE': 'a4', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LC_ADDRESS': 'en_IE.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/7e03d41f_3cc5_4457_b13b_b9e38ace4f07', 'ftp_proxy': 'http://127.0.0.1:2080/', 'XDG_MENU_PREFIX': 'gnome-', 'DISPLAY': ':0', 'LC_TELEPHONE': 'en_IE.UTF-8', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.QFGBL3', 'XDG_SESSION_DESKTOP': 'ubuntu', 'GNOME_TERMINAL_SERVICE': ':1.178', 'XMODIFIERS': '@im=ibus', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/mohammadreza/Robot/HW3/install/robot_description:/opt/ros/jazzy', 'LC_NAME': 'en_IE.UTF-8', 'SHELL': '/usr/bin/zsh', 'GDMSESSION': 'ubuntu', 'QT_ACCESSIBILITY': '1', 'LC_MEASUREMENT': 'en_IE.UTF-8', 'LC_IDENTIFICATION': 'en_IE.UTF-8', 'P9K_SSH': '0', 'QT_IM_MODULE': 'ibus', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/mohammadreza/Robot/HW3/build/robot_description', 'LC_ALL': 'en_US.UTF-8', 'XDG_DATA_DIRS': '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'FTP_PROXY': 'http://127.0.0.1:2080/', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=e3545ce4edc58a03ac76454a699577a6', '_P9K_TTY': '/dev/pts/0', 'HTTP_PROXY': 'http://127.0.0.1:2080/', 'LC_NUMERIC': 'en_IE.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_PAPER': 'en_IE.UTF-8', 'COLCON': '1', 'VTE_VERSION': '7600', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/mohammadreza/Robot/HW3/install/robot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[2.203740] (-) TimerEvent: {}
+[2.244711] (robot_description) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ekf_diff_imu_node.dir/scripts/ekf_diff_imu.cpp.o\x1b[0m\n'}
+[2.245093] (robot_description) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/frame_id_converter_node.dir/scripts/frame_id_converter.cpp.o\x1b[0m\n'}
+[2.245302] (robot_description) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/motor_command_node.dir/scripts/motor_command.cpp.o\x1b[0m\n'}
+[2.304035] (-) TimerEvent: {}
+[2.404570] (-) TimerEvent: {}
+[2.504998] (-) TimerEvent: {}
+[2.605554] (-) TimerEvent: {}
+[2.706081] (-) TimerEvent: {}
+[2.806610] (-) TimerEvent: {}
+[2.907080] (-) TimerEvent: {}
+[3.007532] (-) TimerEvent: {}
+[3.108108] (-) TimerEvent: {}
+[3.208661] (-) TimerEvent: {}
+[3.309255] (-) TimerEvent: {}
+[3.409794] (-) TimerEvent: {}
+[3.510256] (-) TimerEvent: {}
+[3.610768] (-) TimerEvent: {}
+[3.711307] (-) TimerEvent: {}
+[3.811818] (-) TimerEvent: {}
+[3.912344] (-) TimerEvent: {}
+[4.012836] (-) TimerEvent: {}
+[4.113413] (-) TimerEvent: {}
+[4.213954] (-) TimerEvent: {}
+[4.314486] (-) TimerEvent: {}
+[4.414950] (-) TimerEvent: {}
+[4.515324] (-) TimerEvent: {}
+[4.615771] (-) TimerEvent: {}
+[4.716161] (-) TimerEvent: {}
+[4.816543] (-) TimerEvent: {}
+[4.917003] (-) TimerEvent: {}
+[5.017397] (-) TimerEvent: {}
+[5.117888] (-) TimerEvent: {}
+[5.218280] (-) TimerEvent: {}
+[5.318670] (-) TimerEvent: {}
+[5.419035] (-) TimerEvent: {}
+[5.519431] (-) TimerEvent: {}
+[5.619907] (-) TimerEvent: {}
+[5.720268] (-) TimerEvent: {}
+[5.820647] (-) TimerEvent: {}
+[5.921027] (-) TimerEvent: {}
+[6.021393] (-) TimerEvent: {}
+[6.121871] (-) TimerEvent: {}
+[6.222247] (-) TimerEvent: {}
+[6.322634] (-) TimerEvent: {}
+[6.423032] (-) TimerEvent: {}
+[6.523483] (-) TimerEvent: {}
+[6.623965] (-) TimerEvent: {}
+[6.724441] (-) TimerEvent: {}
+[6.824919] (-) TimerEvent: {}
+[6.925377] (-) TimerEvent: {}
+[7.025822] (-) TimerEvent: {}
+[7.126293] (-) TimerEvent: {}
+[7.226746] (-) TimerEvent: {}
+[7.327133] (-) TimerEvent: {}
+[7.427491] (-) TimerEvent: {}
+[7.527948] (-) TimerEvent: {}
+[7.628327] (-) TimerEvent: {}
+[7.728783] (-) TimerEvent: {}
+[7.829217] (-) TimerEvent: {}
+[7.929605] (-) TimerEvent: {}
+[8.030082] (-) TimerEvent: {}
+[8.130537] (-) TimerEvent: {}
+[8.231043] (-) TimerEvent: {}
+[8.331461] (-) TimerEvent: {}
+[8.431843] (-) TimerEvent: {}
+[8.532318] (-) TimerEvent: {}
+[8.632786] (-) TimerEvent: {}
+[8.733258] (-) TimerEvent: {}
+[8.833720] (-) TimerEvent: {}
+[8.934212] (-) TimerEvent: {}
+[9.034675] (-) TimerEvent: {}
+[9.135145] (-) TimerEvent: {}
+[9.235596] (-) TimerEvent: {}
+[9.336062] (-) TimerEvent: {}
+[9.436511] (-) TimerEvent: {}
+[9.536984] (-) TimerEvent: {}
+[9.637348] (-) TimerEvent: {}
+[9.737793] (-) TimerEvent: {}
+[9.838171] (-) TimerEvent: {}
+[9.938548] (-) TimerEvent: {}
+[10.039044] (-) TimerEvent: {}
+[10.139414] (-) TimerEvent: {}
+[10.239882] (-) TimerEvent: {}
+[10.340240] (-) TimerEvent: {}
+[10.440607] (-) TimerEvent: {}
+[10.541024] (-) TimerEvent: {}
+[10.641383] (-) TimerEvent: {}
+[10.741825] (-) TimerEvent: {}
+[10.842293] (-) TimerEvent: {}
+[10.942734] (-) TimerEvent: {}
+[11.043180] (-) TimerEvent: {}
+[11.143565] (-) TimerEvent: {}
+[11.244071] (-) TimerEvent: {}
+[11.344516] (-) TimerEvent: {}
+[11.444946] (-) TimerEvent: {}
+[11.545274] (-) TimerEvent: {}
+[11.645695] (-) TimerEvent: {}
+[11.746145] (-) TimerEvent: {}
+[11.846589] (-) TimerEvent: {}
+[11.947061] (-) TimerEvent: {}
+[12.047412] (-) TimerEvent: {}
+[12.147832] (-) TimerEvent: {}
+[12.248267] (-) TimerEvent: {}
+[12.348729] (-) TimerEvent: {}
+[12.449209] (-) TimerEvent: {}
+[12.549661] (-) TimerEvent: {}
+[12.650151] (-) TimerEvent: {}
+[12.750612] (-) TimerEvent: {}
+[12.851064] (-) TimerEvent: {}
+[12.951505] (-) TimerEvent: {}
+[13.051966] (-) TimerEvent: {}
+[13.152315] (-) TimerEvent: {}
+[13.252720] (-) TimerEvent: {}
+[13.353117] (-) TimerEvent: {}
+[13.453536] (-) TimerEvent: {}
+[13.553946] (-) TimerEvent: {}
+[13.654400] (-) TimerEvent: {}
+[13.754871] (-) TimerEvent: {}
+[13.855301] (-) TimerEvent: {}
+[13.955759] (-) TimerEvent: {}
+[14.056150] (-) TimerEvent: {}
+[14.156557] (-) TimerEvent: {}
+[14.256945] (-) TimerEvent: {}
+[14.357341] (-) TimerEvent: {}
+[14.457768] (-) TimerEvent: {}
+[14.558178] (-) TimerEvent: {}
+[14.658550] (-) TimerEvent: {}
+[14.723163] (robot_description) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX executable frame_id_converter_node\x1b[0m\n'}
+[14.758704] (-) TimerEvent: {}
+[14.859069] (-) TimerEvent: {}
+[14.959417] (-) TimerEvent: {}
+[15.059922] (-) TimerEvent: {}
+[15.160272] (-) TimerEvent: {}
+[15.180219] (robot_description) StdoutLine: {'line': b'[ 66%] Built target frame_id_converter_node\n'}
+[15.260410] (-) TimerEvent: {}
+[15.360820] (-) TimerEvent: {}
+[15.461164] (-) TimerEvent: {}
+[15.561518] (-) TimerEvent: {}
+[15.646513] (robot_description) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable motor_command_node\x1b[0m\n'}
+[15.661644] (-) TimerEvent: {}
+[15.762098] (-) TimerEvent: {}
+[15.862613] (-) TimerEvent: {}
+[15.963022] (-) TimerEvent: {}
+[16.053225] (robot_description) StdoutLine: {'line': b'[ 83%] Built target motor_command_node\n'}
+[16.063119] (-) TimerEvent: {}
+[16.163487] (-) TimerEvent: {}
+[16.263805] (-) TimerEvent: {}
+[16.364179] (-) TimerEvent: {}
+[16.464592] (-) TimerEvent: {}
+[16.564960] (-) TimerEvent: {}
+[16.665329] (-) TimerEvent: {}
+[16.765600] (-) TimerEvent: {}
+[16.865973] (-) TimerEvent: {}
+[16.966235] (-) TimerEvent: {}
+[17.066583] (-) TimerEvent: {}
+[17.167001] (-) TimerEvent: {}
+[17.267449] (-) TimerEvent: {}
+[17.367916] (-) TimerEvent: {}
+[17.468459] (-) TimerEvent: {}
+[17.568844] (-) TimerEvent: {}
+[17.669137] (-) TimerEvent: {}
+[17.769468] (-) TimerEvent: {}
+[17.870099] (-) TimerEvent: {}
+[17.970563] (-) TimerEvent: {}
+[18.070988] (-) TimerEvent: {}
+[18.171346] (-) TimerEvent: {}
+[18.271759] (-) TimerEvent: {}
+[18.372314] (-) TimerEvent: {}
+[18.472804] (-) TimerEvent: {}
+[18.573154] (-) TimerEvent: {}
+[18.673607] (-) TimerEvent: {}
+[18.774367] (-) TimerEvent: {}
+[18.874896] (-) TimerEvent: {}
+[18.975290] (-) TimerEvent: {}
+[19.075706] (-) TimerEvent: {}
+[19.176107] (-) TimerEvent: {}
+[19.276424] (-) TimerEvent: {}
+[19.376844] (-) TimerEvent: {}
+[19.477305] (-) TimerEvent: {}
+[19.577688] (-) TimerEvent: {}
+[19.678049] (-) TimerEvent: {}
+[19.778427] (-) TimerEvent: {}
+[19.878835] (-) TimerEvent: {}
+[19.979220] (-) TimerEvent: {}
+[20.079518] (-) TimerEvent: {}
+[20.179915] (-) TimerEvent: {}
+[20.280303] (-) TimerEvent: {}
+[20.380713] (-) TimerEvent: {}
+[20.481076] (-) TimerEvent: {}
+[20.581425] (-) TimerEvent: {}
+[20.681795] (-) TimerEvent: {}
+[20.782197] (-) TimerEvent: {}
+[20.882615] (-) TimerEvent: {}
+[20.982987] (-) TimerEvent: {}
+[21.083304] (-) TimerEvent: {}
+[21.183697] (-) TimerEvent: {}
+[21.284110] (-) TimerEvent: {}
+[21.384518] (-) TimerEvent: {}
+[21.484914] (-) TimerEvent: {}
+[21.585310] (-) TimerEvent: {}
+[21.685693] (-) TimerEvent: {}
+[21.786128] (-) TimerEvent: {}
+[21.843181] (robot_description) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ekf_diff_imu_node\x1b[0m\n'}
+[21.886337] (-) TimerEvent: {}
+[21.986620] (-) TimerEvent: {}
+[22.086969] (-) TimerEvent: {}
+[22.187552] (-) TimerEvent: {}
+[22.287959] (-) TimerEvent: {}
+[22.388359] (-) TimerEvent: {}
+[22.465246] (robot_description) StdoutLine: {'line': b'[100%] Built target ekf_diff_imu_node\n'}
+[22.481586] (robot_description) CommandEnded: {'returncode': 0}
+[22.482473] (robot_description) JobProgress: {'identifier': 'robot_description', 'progress': 'install'}
+[22.488538] (-) TimerEvent: {}
+[22.494068] (robot_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mohammadreza/Robot/HW3/build/robot_description'], 'cwd': '/home/mohammadreza/Robot/HW3/build/robot_description', 'env': OrderedDict({'HTTPS_PROXY': 'http://127.0.0.1:2080/', 'USER': 'mohammadreza', 'LANGUAGE': 'en', 'no_proxy': 'localhost,127.0.0.0/8,::1', 'LC_TIME': 'en_IE.UTF-8', 'all_proxy': 'socks://127.0.0.1:2080/', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/mohammadreza', 'OLDPWD': '/home/mohammadreza/Robot/HW3/src', 'LESS': '-R', 'DESKTOP_SESSION': 'ubuntu', 'NO_PROXY': 'localhost,127.0.0.0/8,::1', 'ZSH': '/home/mohammadreza/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'GTK_MODULES': 'gail:atk-bridge', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'en_IE.UTF-8', 'SYSTEMD_EXEC_PID': '2841', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=e3545ce4edc58a03ac76454a699577a6', 'DBUS_STARTER_BUS_TYPE': 'session', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'P9K_TTY': 'old', 'COLORTERM': 'truecolor', 'WAYLAND_DISPLAY': 'wayland-0', 'https_proxy': 'http://127.0.0.1:2080/', 'ROS_DISTRO': 'jazzy', 'COLCON_PREFIX_PATH': '/home/mohammadreza/Robot/HW3/install', 'LOGNAME': 'mohammadreza', 'ALL_PROXY': 'socks://127.0.0.1:2080/', 'http_proxy': 'http://127.0.0.1:2080/', '_': '/usr/bin/colcon', '_P9K_SSH_TTY': '/dev/pts/0', 'XDG_SESSION_CLASS': 'user', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'ROS_VERSION': '2', 'USERNAME': 'mohammadreza', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/mohammadreza-Vivobook-ASUSLaptop-X1502ZA-R1502ZA:@/tmp/.ICE-unix/2841,unix/mohammadreza-Vivobook-ASUSLaptop-X1502ZA-R1502ZA:/tmp/.ICE-unix/2841', 'PAPERSIZE': 'a4', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LC_ADDRESS': 'en_IE.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/7e03d41f_3cc5_4457_b13b_b9e38ace4f07', 'ftp_proxy': 'http://127.0.0.1:2080/', 'XDG_MENU_PREFIX': 'gnome-', 'DISPLAY': ':0', 'LC_TELEPHONE': 'en_IE.UTF-8', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.QFGBL3', 'XDG_SESSION_DESKTOP': 'ubuntu', 'GNOME_TERMINAL_SERVICE': ':1.178', 'XMODIFIERS': '@im=ibus', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/mohammadreza/Robot/HW3/install/robot_description:/opt/ros/jazzy', 'LC_NAME': 'en_IE.UTF-8', 'SHELL': '/usr/bin/zsh', 'GDMSESSION': 'ubuntu', 'QT_ACCESSIBILITY': '1', 'LC_MEASUREMENT': 'en_IE.UTF-8', 'LC_IDENTIFICATION': 'en_IE.UTF-8', 'P9K_SSH': '0', 'QT_IM_MODULE': 'ibus', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/mohammadreza/Robot/HW3/build/robot_description', 'LC_ALL': 'en_US.UTF-8', 'XDG_DATA_DIRS': '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'FTP_PROXY': 'http://127.0.0.1:2080/', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=e3545ce4edc58a03ac76454a699577a6', '_P9K_TTY': '/dev/pts/0', 'HTTP_PROXY': 'http://127.0.0.1:2080/', 'LC_NUMERIC': 'en_IE.UTF-8', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_PAPER': 'en_IE.UTF-8', 'COLCON': '1', 'VTE_VERSION': '7600', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/home/mohammadreza/Robot/HW3/install/robot_description:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[22.510165] (robot_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[22.510462] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/src\n'}
+[22.510600] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/src/description\n'}
+[22.510719] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/src/description/robot.urdf\n'}
+[22.510862] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/src/meshes\n'}
+[22.510946] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/src/meshes/wheel.STL\n'}
+[22.511111] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/src/meshes/wheel.usd\n'}
+[22.511341] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/src/meshes/Rear_Left_Caster_Wheel_Main.STL\n'}
+[22.511466] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/src/meshes/chasis.STL\n'}
+[22.538744] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/src/meshes/Front_Left_Caster_Wheel_Main.STL\n'}
+[22.540160] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/src/meshes/Rear_Right_Caster_Wheel_Main.STL\n'}
+[22.540550] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/src/meshes/zed.STL\n'}
+[22.541356] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/src/meshes/Rear_Trailing.STL\n'}
+[22.544169] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/src/meshes/Front_Right_Caster_Wheel_Main.STL\n'}
+[22.544573] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/launch\n'}
+[22.544799] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/launch/display.launch.py\n'}
+[22.544952] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/launch/gazebo.launch.py\n'}
+[22.545048] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/rviz\n'}
+[22.545136] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/rviz/config.rviz\n'}
+[22.545223] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/config\n'}
+[22.545309] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/config/gz_bridge.yaml\n'}
+[22.545392] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/config/rtabmap_slam.yaml\n'}
+[22.545477] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/world\n'}
+[22.545643] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/world/depot.sdf\n'}
+[22.545750] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/world/test.sdf\n'}
+[22.545833] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/scripts\n'}
+[22.545981] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/scripts/motor_command.cpp\n'}
+[22.546081] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/scripts/map_publisher.py\n'}
+[22.546164] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/scripts/particle_filter.py\n'}
+[22.546245] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/scripts/gym_gazebo_env.py\n'}
+[22.546326] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/scripts/ekf_diff_imu.cpp\n'}
+[22.546406] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/scripts/test_env.py\n'}
+[22.546487] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/scripts/frame_id_converter.cpp\n'}
+[22.546571] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/scripts/__pycache__\n'}
+[22.546653] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/scripts/__pycache__/gym_gazebo_env.cpython-310.pyc\n'}
+[22.546765] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/Robot/HW3/install/robot_description/lib/robot_description/frame_id_converter_node\n'}
+[22.551235] (robot_description) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mohammadreza/Robot/HW3/install/robot_description/lib/robot_description/frame_id_converter_node" to ""\n'}
+[22.551444] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/Robot/HW3/install/robot_description/lib/robot_description/ekf_diff_imu_node\n'}
+[22.560656] (robot_description) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mohammadreza/Robot/HW3/install/robot_description/lib/robot_description/ekf_diff_imu_node" to ""\n'}
+[22.560895] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/Robot/HW3/install/robot_description/lib/robot_description/motor_command_node\n'}
+[22.565943] (robot_description) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/mohammadreza/Robot/HW3/install/robot_description/lib/robot_description/motor_command_node" to ""\n'}
+[22.566172] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/Robot/HW3/install/robot_description/lib/robot_description/map_publisher.py\n'}
+[22.566367] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/Robot/HW3/install/robot_description/lib/robot_description/particle_filter.py\n'}
+[22.566464] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/maps\n'}
+[22.566557] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/maps/depot.yaml\n'}
+[22.566837] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/maps/depot.pgm\n'}
+[22.567085] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/Robot/HW3/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description\n'}
+[22.567190] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/Robot/HW3/install/robot_description/share/ament_index/resource_index/parent_prefix_path/robot_description\n'}
+[22.567285] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/environment/ament_prefix_path.sh\n'}
+[22.567376] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/environment/ament_prefix_path.dsv\n'}
+[22.567491] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/environment/path.sh\n'}
+[22.567632] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/environment/path.dsv\n'}
+[22.567740] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/local_setup.bash\n'}
+[22.567828] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/local_setup.sh\n'}
+[22.567927] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/local_setup.zsh\n'}
+[22.568077] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/local_setup.dsv\n'}
+[22.568188] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/package.dsv\n'}
+[22.568275] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/Robot/HW3/install/robot_description/share/ament_index/resource_index/packages/robot_description\n'}
+[22.568389] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/cmake/robot_descriptionConfig.cmake\n'}
+[22.568472] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/cmake/robot_descriptionConfig-version.cmake\n'}
+[22.568551] (robot_description) StdoutLine: {'line': b'-- Installing: /home/mohammadreza/Robot/HW3/install/robot_description/share/robot_description/package.xml\n'}
+[22.570588] (robot_description) CommandEnded: {'returncode': 0}
+[22.589009] (-) TimerEvent: {}
+[22.594799] (robot_description) JobEnded: {'identifier': 'robot_description', 'rc': 0}
+[22.595424] (-) EventReactorShutdown: {}

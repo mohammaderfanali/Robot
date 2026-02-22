@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-e4b51cd811ff30ced944.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "robot_description",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ekf_diff_imu_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ekf_diff_imu_node-316cf408d7ff9773a4eb.json",
+					"name" : "ekf_diff_imu_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "frame_id_converter_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-frame_id_converter_node-cb569552b14b4078e507.json",
+					"name" : "frame_id_converter_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "motor_command_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-motor_command_node-499d7cd1cec26db66e10.json",
+					"name" : "motor_command_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "robot_description_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-robot_description_uninstall-a282740d4643cd61a0aa.json",
+					"name" : "robot_description_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-289c206734fd2c3f934b.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/mohammadreza/Robot/HW3/build/robot_description",
+		"source" : "/home/mohammadreza/Robot/HW3/src/robot_description"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

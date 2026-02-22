@@ -1,0 +1,19 @@
+digraph G {
+"odom" -> "base_link"[label=" Broadcaster: default_authority\nAverage rate: 213.372\nBuffer length: 1.72\nMost recent transform: 59.66\nOldest transform: 57.94\n"];
+"base_link" -> "base_footprint"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"base_link" -> "rplidar_c1"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"base_link" -> "zed_camera_link"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"zed_camera_link" -> "zed_left_optical_frame"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"zed_camera_link" -> "zed_right_optical_frame"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"zed_camera_link" -> "zed_imu_link"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+"base_link" -> "caster_back_left_link"[label=" Broadcaster: default_authority\nAverage rate: 15.734\nBuffer length: 1.716\nMost recent transform: 59.644\nOldest transform: 57.928\n"];
+"base_link" -> "caster_back_right_link"[label=" Broadcaster: default_authority\nAverage rate: 15.734\nBuffer length: 1.716\nMost recent transform: 59.644\nOldest transform: 57.928\n"];
+"base_link" -> "caster_front_left_link"[label=" Broadcaster: default_authority\nAverage rate: 15.734\nBuffer length: 1.716\nMost recent transform: 59.644\nOldest transform: 57.928\n"];
+"base_link" -> "caster_front_right_link"[label=" Broadcaster: default_authority\nAverage rate: 15.734\nBuffer length: 1.716\nMost recent transform: 59.644\nOldest transform: 57.928\n"];
+"base_link" -> "drivewhl_l_link"[label=" Broadcaster: default_authority\nAverage rate: 15.734\nBuffer length: 1.716\nMost recent transform: 59.644\nOldest transform: 57.928\n"];
+"base_link" -> "drivewhl_r_link"[label=" Broadcaster: default_authority\nAverage rate: 15.734\nBuffer length: 1.716\nMost recent transform: 59.644\nOldest transform: 57.928\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1771413111.6695898"[ shape=plaintext ] ;
+}->"odom";
+}
